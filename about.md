@@ -16,6 +16,6 @@ jamcha: 自作の小説をGitHubに投稿しています。
 
 ### Contact
 
-twitter: [<https://twitter.com/jamcha_aa>](https://twitter.com/jamcha_aa)
+-   twitter: [<https://twitter.com/jamcha_aa>](https://twitter.com/jamcha_aa)
 
-mail: jamcha.aa@gmail.com
+-   mail: jamcha.aa@gmail.com
