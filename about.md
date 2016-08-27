@@ -1,3 +1,14 @@
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline1">1. 自己紹介</a></li>
+<li><a href="#orgheadline2">2. 連載中の小説</a></li>
+<li><a href="#orgheadline3">3. Contact</a></li>
+</ul>
+</div>
+</div>
+
 ---
 layout: page
 title: About
@@ -5,8 +16,16 @@ permalink: /about/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+# 自己紹介<a id="orgheadline1"></a>
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+jamcha: 自作の小説をGitHubに投稿しています。
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+# 連載中の小説<a id="orgheadline2"></a>
+
+-   [Lore](https://github.com/jamcha-aa/Lore) 2chオカ板ロア風の4行小説集。
+-   [黒檀の刃](https://github.com/jamcha-aa/EbonyBlades) 滅亡した国を舞台に繰り広げられるダークファンタジー小説。
+
+# Contact<a id="orgheadline3"></a>
+
+twitter: [<https://twitter.com/jamcha_aa>](https://twitter.com/jamcha_aa)
+mail: jamcha.aa@gmail.com
