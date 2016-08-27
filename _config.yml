@@ -1,33 +1,32 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "https://jamcha-aa.github.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: jamcha blog
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Emacsのorg-modeを使ってGitHubで小説書いてます。</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: # Full email address, e.g. "jamcha.aa@gmail.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "jamcha-aa"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -37,7 +36,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "jamcha-aa"
   wordpress:
   youtube:
 
