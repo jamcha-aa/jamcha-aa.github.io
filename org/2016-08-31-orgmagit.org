@@ -30,74 +30,59 @@ title: org-modeで書いた小説をmagitでGitHubに投稿する
 * GitHubでリポジトリ作成
 -  GitHubでリポジトリを作成します。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/01.png]] 図1
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/01.png]] 図1
 -  リポジトリができました。
   #+ATTR_HTML: width="350px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/02.png]] 図2
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/02.png]] 図2
 
 * org-modeで書いたファイルをmarkdown形式にする
 -  文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。
-
 #+BEGIN_EXAMPLE
 C-c C-e m m
 #+END_EXAMPLE
-
 - フォルダ名はGitHubで作成したリポジトリ名と同じものにしてください。今回はShortShortというフォルダにREADME.org (目次)，その中のarticleというフォルダにWhaleDreams.orgというファイル (小説の本文) と，それぞれmarkdown形式で出力したものを置いています。
 
 * magitでコミットする
 - README.mdがある場所でmagitを起動します。
-
 #+BEGIN_EXAMPLE
 M-x magit-status
 #+END_EXAMPLE
-  
 - 実行すると図3のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/03.png]] 図3
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/03.png]] 図3
 - Enterを押すとgitリポジトリを作成するか聞かれるので，yを押すとフォルダ内に.gitフォルダが作成されます。
-
 - 次にmagit-statusを起動すると図4のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/04.png]] 図4
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/04.png]] 図4
 - ここでsを押すと，"Unstaged" が "Staged" に変わります。コミットの準備完了の合図です (図5)。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/05.png]] 図5
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/05.png]] 図5
 - cを2回押すと図6のような画面になるので，コメントを書きます。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/06.png]] 図6
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/06.png]] 図6
 - コメントを書き終わってC-c C-cするとコミットが完了し図7のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/07.png]] 図7
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/07.png]] 図7
 
 * GitHubにプッシュする
 - Shift-M aを押すと図8のように入力を促されるので，originと入力します。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/08.png]] 図8
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/08.png]] 図8
 - Remote先をきかれるので，GitHubの該当するリポジトリURLを入力します (今回はShortShortのあるURL)。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/09.png]] 図9
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/09.png]] 図9
 - Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。すると図10のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/10.png]] 図10
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/10.png]] 図10
 - Shift-P を押すと図11のようになるので，Enterを押します。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/11.png]] 図11
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/11.png]] 図11
 - ユーザー名とパスワードを入力し，図12のようになればプッシュ完了です。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/12.png]] 図12
-
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/12.png]] 図12
 - ブラウザで見ると，空っぽのとき (図2) と比べてファイルが追加されているのがわかります。
   #+ATTR_HTML: width="300px"
-  [[file:https://github.com/jamcha-aa/jamcha-aa.github.io/blob/master/_posts/20160831imgs/13.png]] 図13
+  [[file:https://raw.githubusercontent.com/jamcha-aa/jamcha-aa.github.io/master/_posts/20160831imgs/13.png]] 図13
 
 * 以降の流れ
   - 文章を書いたらmagit-statusを起動
