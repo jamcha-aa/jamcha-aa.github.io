@@ -28,62 +28,86 @@ title: org-modeで書いた小説をmagitでGitHubに投稿する
 #+END_EXAMPLE
 
 * GitHubでリポジトリ作成
-- GitHubでリポジトリを作成します。
+  GitHubでリポジトリを作成します。
   #+ATTR_HTML: width="300px"
   [[file:01.png]]
 
-- リポジトリができました。
+  <br>
+  リポジトリができました。
   #+ATTR_HTML: width="350px"
   [[file:02.png]]
 
 * org-modeで書いたファイルをmarkdown形式にする
-- 文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。
+  文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。
 
 #+BEGIN_EXAMPLE
 C-c C-e m m
 #+END_EXAMPLE
 
-- フォルダ名はGitHubで作成したリポジトリ名と同じものにしてください。今回はShortShortというフォルダにREADME.org (目次)，その中のarticleというフォルダにWhaleDreams.orgというファイル (小説の本文) と，それぞれmarkdown形式で出力したものを置いています。
+フォルダ名はGitHubで作成したリポジトリ名と同じものにしてください。今回はShortShortというフォルダにREADME.org (目次)，その中のarticleというフォルダにWhaleDreams.orgというファイル (小説の本文) と，それぞれmarkdown形式で出力したものを置いています。
 
 * magitでコミットする
-- README.mdがある場所でmagitを起動します。
+  README.mdがある場所でmagitを起動します。
+
 #+BEGIN_EXAMPLE
 M-x magit-status
 #+END_EXAMPLE
-- 実行すると下のようになります。
+
+<br>
+実行すると下のようになります。
   #+ATTR_HTML: width="300px"
   [[file:03.png]]
-- Enterを押すとgitリポジトリを作成するか聞かれるので，yを押すとフォルダ内に.gitフォルダが作成されます。
-- 次にmagit-statusを起動すると下のようになります。
+
+  Enterを押すとgitリポジトリを作成するか聞かれるので，yを押すとフォルダ内に.gitフォルダが作成されます。
+
+  <br>
+  次にmagit-statusを起動すると下のようになります。
   #+ATTR_HTML: width="300px"
   [[file:04.png]]
-- ここでsを押すと，"Unstaged" が "Staged" に変わります。コミットの準備完了の合図です。
+
+  <br>
+  ここでsを押すと，"Unstaged" が "Staged" に変わります。コミットの準備完了の合図です。
   #+ATTR_HTML: width="300px"
   [[file:05.png]]
-- cを2回押すと下のような画面になるので，コメントを書きます。
+
+  <br>
+  cを2回押すと下のような画面になるので，コメントを書きます。
   #+ATTR_HTML: width="300px"
   [[file:06.png]]
-- コメントを書き終わってC-c C-cするとコミットが完了します。
+  
+  <br>
+  コメントを書き終わってC-c C-cするとコミットが完了します。
   #+ATTR_HTML: width="300px"
   [[file:07.png]]
 
 * GitHubにプッシュする
-- Shift-M aを押すと下のように入力を促されるので，originと入力します。
+
+  Shift-M aを押すと下のように入力を促されるので，originと入力します。
   #+ATTR_HTML: width="300px"
   [[file:08.png]]
-- Remote先をきかれるので，GitHubの該当するリポジトリURLを入力します (今回はShortShortのあるURL)。
+
+  <br>
+  Remote先をきかれるので，GitHubの該当するリポジトリURLを入力します (今回はShortShortのあるURL)。
   #+ATTR_HTML: width="300px"
   [[file:09.png]]
-- Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。すると下のようになります。
+
+  <br>
+  Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。すると下のようになります。
   #+ATTR_HTML: width="300px"
   [[file:10.png]]
-- Shift-P を押すと下のようになるので，Enterを押します。
+
+  <br>
+  Shift-P を押すと下のようになるので，Enterを押します。
   #+ATTR_HTML: width="300px"
   [[file:11.png]]
-- ユーザー名とパスワードを入力し，下のようになればプッシュ完了です。
+
+  <br>
+  ユーザー名とパスワードを入力し，下のようになればプッシュ完了です。
   #+ATTR_HTML: width="300px"
   [[file:12.png]]
-- ブラウザで見ると，空っぽのときと比べてファイルが追加されているのがわかります。
+
+  <br>
+  ブラウザで見ると，空っぽのときと比べてファイルが追加されているのがわかります。
   #+ATTR_HTML: width="300px"
   [[file:13.png]]
 
