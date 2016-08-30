@@ -30,16 +30,19 @@ title: org-modeで書いた小説をmagitでGitHubに投稿する
 * GitHubでリポジトリ作成
 - GitHubでリポジトリを作成します。
   #+ATTR_HTML: width="300px"
-  [[file:01.png]] 図1
+  [[file:01.png]]
+
 - リポジトリができました。
   #+ATTR_HTML: width="350px"
-  [[file:02.png]] 図2
+  [[file:02.png]]
 
 * org-modeで書いたファイルをmarkdown形式にする
 - 文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。
+
 #+BEGIN_EXAMPLE
 C-c C-e m m
 #+END_EXAMPLE
+
 - フォルダ名はGitHubで作成したリポジトリ名と同じものにしてください。今回はShortShortというフォルダにREADME.org (目次)，その中のarticleというフォルダにWhaleDreams.orgというファイル (小説の本文) と，それぞれmarkdown形式で出力したものを置いています。
 
 * magitでコミットする
@@ -47,42 +50,42 @@ C-c C-e m m
 #+BEGIN_EXAMPLE
 M-x magit-status
 #+END_EXAMPLE
-- 実行すると図3のようになります。
+- 実行すると下のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:03.png]] 図3
+  [[file:03.png]]
 - Enterを押すとgitリポジトリを作成するか聞かれるので，yを押すとフォルダ内に.gitフォルダが作成されます。
-- 次にmagit-statusを起動すると図4のようになります。
+- 次にmagit-statusを起動すると下のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:04.png]] 図4
-- ここでsを押すと，"Unstaged" が "Staged" に変わります。コミットの準備完了の合図です (図5)。
+  [[file:04.png]]
+- ここでsを押すと，"Unstaged" が "Staged" に変わります。コミットの準備完了の合図です。
   #+ATTR_HTML: width="300px"
-  [[file:05.png]] 図5
-- cを2回押すと図6のような画面になるので，コメントを書きます。
+  [[file:05.png]]
+- cを2回押すと下のような画面になるので，コメントを書きます。
   #+ATTR_HTML: width="300px"
-  [[file:06.png]] 図6
-- コメントを書き終わってC-c C-cするとコミットが完了し図7のようになります。
+  [[file:06.png]]
+- コメントを書き終わってC-c C-cするとコミットが完了します。
   #+ATTR_HTML: width="300px"
-  [[file:07.png]] 図7
+  [[file:07.png]]
 
 * GitHubにプッシュする
-- Shift-M aを押すと図8のように入力を促されるので，originと入力します。
+- Shift-M aを押すと下のように入力を促されるので，originと入力します。
   #+ATTR_HTML: width="300px"
-  [[file:08.png]] 図8
+  [[file:08.png]]
 - Remote先をきかれるので，GitHubの該当するリポジトリURLを入力します (今回はShortShortのあるURL)。
   #+ATTR_HTML: width="300px"
-  [[file:09.png]] 図9
-- Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。すると図10のようになります。
+  [[file:09.png]]
+- Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。すると下のようになります。
   #+ATTR_HTML: width="300px"
-  [[file:10.png]] 図10
-- Shift-P を押すと図11のようになるので，Enterを押します。
+  [[file:10.png]]
+- Shift-P を押すと下のようになるので，Enterを押します。
   #+ATTR_HTML: width="300px"
-  [[file:11.png]] 図11
-- ユーザー名とパスワードを入力し，図12のようになればプッシュ完了です。
+  [[file:11.png]]
+- ユーザー名とパスワードを入力し，下のようになればプッシュ完了です。
   #+ATTR_HTML: width="300px"
-  [[file:12.png]] 図12
-- ブラウザで見ると，空っぽのとき (図2) と比べてファイルが追加されているのがわかります。
+  [[file:12.png]]
+- ブラウザで見ると，空っぽのときと比べてファイルが追加されているのがわかります。
   #+ATTR_HTML: width="300px"
-  [[file:13.png]] 図13
+  [[file:13.png]]
 
 * 以降の流れ
   - 文章を書いたらmagit-statusを起動
