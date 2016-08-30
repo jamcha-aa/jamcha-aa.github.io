@@ -13,6 +13,7 @@ jamcha: 自作の小説をGitHubに投稿しています。
 
 -   [Lore](https://github.com/jamcha-aa/Lore) 2chオカ板ロア風の4行小説集。
 -   [黒檀の刃](https://github.com/jamcha-aa/EbonyBlades) 滅亡した国を舞台に繰り広げられるダークファンタジー小説。
+-   [短編小説集](https://github.com/jamcha-aa/ShortShort) その名のとおりの短編小説集。
 
 ### Contact
 
