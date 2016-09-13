@@ -1,0 +1,37 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: Windows版emacsでmagitとtwitterを使う
+---
+#+END_HTML
+
+* 注意
+
+  この記事は手こずったところの要点を後から思い出して書いているため，誤
+  りがあるかもしれません。
+
+* 手続き
+
+  0. magit, twittering-modeを導入している
+  1. [[https://www.gpg4win.org/][gpg4win]] をインストール
+  2. Gitを設定は変えずインストール
+  3. [[http://monsat.hatenablog.com/entry/generating-ssh-keys-for-github][http://monsat.hatenablog.com/entry/generating-ssh-keys-for-github]]
+     に従って鍵をgithubに登録する
+  4. 3.で作成した.sshフォルダをemacsのホームフォルダに入れる。その際，
+     ホームフォルダにパスが通っているか確かめる
+  5. c:\Program Files\Git\bin\をパスに登録する
+  6. [[https://github.com/chuntaro/NTEmacs64/blob/master/emacs-24.5-IME-patched.zip][chuntaro版emacs-24.5-IME-patched]] を展開する
+  7. [[https://sourceforge.net/projects/ezwinports/][ezwinports]] からgnutls~w32-bin.zipをダウンロードし，6のフォルダに入れ
+     る。そのときに複数のファイルを上書き確認されるが， *上書きはしない* 。
+  8. [[http://stackoverflow.com/questions/16884377/magit-is-very-slow-when-committing-on-windows][ここ]] を参考にinit.elにgitの設定を書く
+     #+BEGIN_SRC 
+      (setq exec-path (add-to-list 'exec-path "C:/Program Files/Git/bin"))
+      (setenv "PATH" (concat "C:\\Program Files\\Git\\bin;" (getenv "PATH")))
+      (setenv "GIT_ASKPASS" "git-gui--askpass")
+      (setenv "SSH_ASKPASS" "git-gui--askpass")
+     #+END_SRC
+
+* あとがき
+
+  gnupackはwindowsでemacsを使う決定版だと思っているのですが，昨今の格安ファンレスノートPC (EeeBookとかHP streamとか) はストレージの容量が32gbしかなく，w32texを最小インストール + \alpha するとgnupackを入れる余裕がありません。そこで展開しても200mbに納まるwindows版emacsを愛用しています。ただmagitとtwitterを使おうと思ったときに，gpgとtlsの設定や遅すぎるmagitの問題解決 (特に7と8) に手こずってしまいました。そのため今回記事にしてみました。emacs 25が出たら再び似たようなトラブルに遭遇するんじゃないかと思っています。
