@@ -8,7 +8,7 @@ theme_settings:
   title: jamcha blog
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Emacsのorg-modeを使ってGitHubで小説書いてます。" # used by search engines
 
   # Header and footer text
   header_text: >
