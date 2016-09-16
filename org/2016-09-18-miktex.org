@@ -1,0 +1,49 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: MiKTeX 2.9でのEmacs + LuaTeX環境構築
+---
+#+END_HTML
+
+
+* はじめに
+
+  この記事ではストレージ容量が少ないノートPC (eMMC 32GB) でなるべくコンパクトにTeXを構築するのを目的にしています。容量が多い環境ではこのような工夫をせずともgnupack + TeXLiveやgnupack + W32TeXでtexを利用できます。
+
+* 手続き
+
+  1. MiKTeXをBasic Install
+  2. パッケージマネージャでluatex-ja, ipaex, bxjsclsをインストール。
+  3. MiKTeX Settings (Admin) で，Refresh FNDBとUpdate Formatsを行う
+  	#+ATTR_HTML: width="300px"
+  [[	file:01.png]]
+  4. MiKTeX Settings (Admin) のFormatタブで，luatexとlualatexをBuildする。
+  	#+ATTR_HTML: width="300px"
+  [[	file:02.png]]
+  5. MiKTeX 2.9\tex\luatex\luatexjaに移動して，管理者端末で以下を実行
+     (luatex-jaマニュアルより)。3と4を行っていないとエラーが出る。
+	#+BEGIN_SRC 
+	$ lualatex ltjclasses.ins
+	$ lualatex ltjsclasses.ins
+	$ lualatex ltjltxdoc.ins
+	$ luatex ltj-kinsoku_make.tex
+        #+END_SRC
+  6. [[https://sourceforge.net/p/pgf/bugs/384/][https://sourceforge.net/p/pgf/bugs/384/]] からpgfsys-luatex.defと
+     pgflibrarypgfplots.surfshading.pgfsys-luatex.defをダウンロードし
+     てMiKTeXのフォルダに入れる (私はluatex-jaが入っている場所にしまし
+     た)
+     - 詳しい解説はこちら
+       [[http://acetaminophen.hatenablog.com/entry/2016/04/23/141922#meth-3-4][http://acetaminophen.hatenablog.com/entry/2016/04/23/141922#meth-3-4]]
+       なおこのドライバが公式パッケージに無いため，私を含めここつまず
+       く人がとても多いようです
+  7. mktexlsrをしてコンパイルが通るか試してみる。1 -- 6のどこかでひっ
+     かかった人は適宜mktexlsr, 3のRefresh FNDBやUpdate Formats等を行う
+     と良いようです。
+
+* あとがき
+  tex環境は容量を食うソフトウェアのひとつで，通常のtexlive-fullが4GB弱，
+  W32TeXやBash on Ubuntu on Windowsでインストールパッケージを絞っても
+  2GB程度あります。ですがMiKTeXの場合は800MB程度に抑えることができまし
+  た。NTEmacsと合わせて1GB弱なので，かなり節約できたことになります。ド
+  ライバ作者のPreining氏に感謝。
