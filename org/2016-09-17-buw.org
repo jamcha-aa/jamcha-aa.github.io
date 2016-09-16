@@ -11,7 +11,7 @@ title: Bash on Ubuntu on WindowsでのEmacs環境構築
   Bash on Ubuntu on Windowsが出て2ヶ月目の記事です。そのためアップデー
   ト等によってここに書かれている情報はすぐに陳腐化する可能性があります。
 
-** Bash on Ubuntu on Windowsの導入
+** 1. Bash on Ubuntu on Windowsの導入
    [[http://qiita.com/Aruneko/items/c79810b0b015bebf30bb][http://qiita.com/Aruneko/items/c79810b0b015bebf30bb]]
 
 
@@ -20,23 +20,23 @@ title: Bash on Ubuntu on WindowsでのEmacs環境構築
    2016/09時点では致命的な不具合がある
    ([[http://ssig33.com/text/bash_on_windows][http://ssig33.com/text/bash_on_windows]]) ため，やめたほうがいいです。
 
-** wsl-terminalおよびcbwinのインストール
+** 2. wsl-terminalおよびcbwinのインストール
    [[http://qiita.com/shiena/items/b8036514c217000a221e][http://qiita.com/shiena/items/b8036514c217000a221e]]
 
    このページに従ってwsl-terminalおよびcbwinをインストールします。以降
    はwsl-terminalからUbuntuを操作することになります。
 
-** emacsのビルド
+** 3. emacsのビルド
    [[http://qiita.com/nanasess/items/6b731c933ebcd9b1c95a][http://qiita.com/nanasess/items/6b731c933ebcd9b1c95a]]
 
    このページに従ってemacsをビルドします。
 
-** gitのインストール
+** 4. gitのインストール
    [[http://qiita.com/shiena/items/709bb408fe4dc3e6287a][http://qiita.com/shiena/items/709bb408fe4dc3e6287a]]
 
    このページに従って新しいgitをインストールしないと，magitが動きません。
 
-** latex (luatex) のインストール
+** 5. latex (luatex) のインストール
    #+BEGIN_SRC 
 	$ sudo apt install texlive-lang-cjk texlive-fonts-recommended texlive-xetex
    #+END_SRC
@@ -48,21 +48,21 @@ title: Bash on Ubuntu on WindowsでのEmacs環境構築
 
    コンパイルができないときはmktexlsrやluaotfload-tool -u -vをしてみましょう。
 
-** バイナリファイル等をWindowsのアプリで開けるようにする
+** 6. バイナリファイル等をWindowsのアプリで開けるようにする
    [[https://www49.atwiki.jp/ntemacs/pages/62.html][https://www49.atwiki.jp/ntemacs/pages/62.html]]
 
    [[https://www49.atwiki.jp/ntemacs/pages/19.html][https://www49.atwiki.jp/ntemacs/pages/19.html]]
 
    このページを参考にelispプログラムを追加しておくと.docxファイルやPDFファイルをWindowsのアプリで開けるようになりとても便利です。
 
-** キャッシュを削除してディスク容量を増やす
+** 7. キャッシュを削除してディスク容量を増やす
    #+BEGIN_SRC 
 	$ sudo apt clean
    #+END_SRC
 
    600MBくらい増えると思います。ストレージが32gb程度しかないeMMC環境では重要です。
 
-** あとがき
+** 8. あとがき
    端末からの操作になるのでテーマの扱いや配色が不十分なのですが，cygwinにはなかった快適さがあります。Windowsでのemacs環境はしばらくこれでいこうと思います。
 
    Qiitaの先達方とntemacs wikiの作者に感謝。
