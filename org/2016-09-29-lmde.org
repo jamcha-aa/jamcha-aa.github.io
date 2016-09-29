@@ -44,6 +44,8 @@ Linux Mint cinnamonのFirefoxが重かったのでLinux Mint Debian Edition 2 (L
 $ sudo gedit /usr/share/X11/xorg.conf.d/20-thinkpad.conf
 #+END_SRC
 
+<br>
+
 #+BEGIN_SRC conf
  Section "InputClass"
      Identifier "Trackpoint Wheel Emulation"
