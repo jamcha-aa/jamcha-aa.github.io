@@ -1,0 +1,77 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: Linux Mint Debian Edition 2 の感触
+---
+#+END_HTML
+
+
+* はじめに
+
+Linux Mint cinnamonのFirefoxが重かったのでLinux Mint Debian Edition 2
+(LMDE2) cinnamon を入れてみました。この記事ではUbuntuベースのLinux
+Mintとの違いで気付いたところをまとめておきたいと思います。Debian系のイ
+ンストールはそれなりに慣れているので，よくある「インストール後の設定一
+覧」としては役に立たないかもしれません。
+
+* インストール時
+
+  - Mintと違ってLMDE2は手動でパーティションを切りgrubをインストールし
+    ないといけないのが難易度高いです。Debianでも勝手にこのあたりの設定
+    をやってくれたような記憶があるのですが。
+  - /dev/sdaにgrubをインストールしても何回か "No Operation System." に
+    見舞われました。全く同じやり方でうまくいくこともあるので，Live起動
+    時の認識が甘いかもしれません。
+    + Live起動時にトラックポイントが認識されたときとそうでないときがありました。
+
+* 日本語化
+
+** システム設定の「入力方法」を選ぶ
+    #+ATTR_HTML: width="300px"
+    file:01.png
+
+** しばらく待つと「入力メソッド」タブにfcitxが表示されるので，クリックしてインストール
+    #+ATTR_HTML: width="300px"
+    [[file:02.png]]
+
+*** 
+  - 本家Mintにもあったかもしれませんが日本語化はしやすいです。端末を起動しなくても日本語設定をしてくれます。
+
+* インストール後の気になる設定
+
+** システムフォントの日本語化
+
+   - Mintと違って，インストール後もCJKじゃないNoto Sansが標準フォント
+     になっています。
+     [[http://www.uetyi.com/server-const/linux-desktop/entry-327.html][http://www.uetyi.com/server-const/linux-desktop/entry-327.html]] ここを
+     参考にフォントを追加します。私はIPAex明朝とNoto Sans CJK, Miguに
+     しました。font.configをいじるとか昔のUbuntuとかVine Linux以来かもしれません。
+
+** トラックポイントのスクロールを有効にする
+
+   - [[http://utimukat55.blogspot.jp/2015/05/lmde-2-betsythinkpad.html][http://utimukat55.blogspot.jp/2015/05/lmde-2-betsythinkpad.html]] ここを参考に。
+
+#+BEGIN_SRC shell
+$ sudo gedit /usr/share/X11/xorg.conf.d/20-thinkpad.conf
+
+ Section "InputClass"
+     Identifier "Trackpoint Wheel Emulation"
+     MatchProduct       "TPPS/2 IBM TrackPoint|DualPoint Stick|Synaptics Inc. Composite TouchPad / TrackPoint|ThinkPad USB Keyboard with TrackPoint|ThinkPad Compact USB Keyboard with TrackPoint|USB Trackpoint pointing device"
+     MatchDevicePath    "/dev/input/event*"
+     Option             "EmulateWheel"          "true"
+     Option             "EmulateWheelButton"    "2"
+     Option             "Emulate3Buttons"       "false"
+     Option             "XAxisMapping"          "6 7"
+     Option             "YAxisMapping"          "4 5"
+ EndSection
+
+#+END_SRC
+
+* 感想
+
+  Firefoxは軽くなったような気がします。ブートローダの扱い等ちょくちょ
+  くひっかかるところがあったので，Linux Mintを初めて使ったときのような
+  至れり尽くせり感はありません。その一方で，Debianベースでありながらソ
+  フトウェアのバージョンアップについていくという姿勢は優れたポイントだ
+  と思います。
