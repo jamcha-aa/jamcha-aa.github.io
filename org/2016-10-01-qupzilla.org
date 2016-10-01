@@ -58,4 +58,4 @@ $ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxpl
 #+END_SRC
 
 * あとがき
-  Chrome系ブラウザは[[https://ja.wikipedia.org/wiki/ブラウザ戦争#cite_ref-14][ メモリをドカ食い]] することが知られています。QtWebEngineはそれよりもメモリ使用量が抑えられているとのことですが，その恩恵を受けられるQtWebEngine5.6以降のブラウザにはLinux版が提供されていません。そこで今回QtWebEngine5.7に対応するQupZilla 2.0.1をLinux Mint 18にインストールしてみたのですが，依存ライブラリが色々あったり日本語入力の設定に手間取ったりして結構大変でした。そこで今回記事にしてみました。
+  Chrome系ブラウザは[[https://ja.wikipedia.org/wiki/ブラウザ戦争#cite_ref-14][ メモリをドカ食い]] することが知られています。QtWebEngineはそれよりもメモリ使用量が抑えられているとのことですが，その恩恵を受けられるQtWebEngine5.6以降のブラウザにはLinux版が提供されていません。そこでQtWebEngine5.7に対応するQupZilla 2.0.1をLinux Mint 18にインストールしてみました。依存ライブラリが色々あったり日本語入力の設定に手間取ったりして結構大変だったため，今回記事にしてみました。
