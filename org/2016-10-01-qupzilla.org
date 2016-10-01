@@ -54,7 +54,7 @@ $ sudo ldconfig
 #+BEGIN_SRC shell
 $ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/gcc_64/plugins/platforminputcontexts
 
-$ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/gcc_64/plugins/platforminputcontexts /opt/Qt/5.7/Tools/QtCreator/bin/plugins/platforminputcontexts
+$ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/Tools/QtCreator/bin/plugins/platforminputcontexts
 #+END_SRC
 
 * あとがき
