@@ -39,7 +39,9 @@ $ export QUPZILLA_PREFIX=/usr && qmake && make
 
 #+BEGIN_SRC shell
 $ sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 /usr/lib/x86_64-linux-gnu/mesa/libGL.so
+
 $ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/mesa/libGL.so
+
 $ sudo ldconfig
 #+END_SRC
 
@@ -51,6 +53,7 @@ $ sudo ldconfig
 
 #+BEGIN_SRC shell
 $ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/gcc_64/plugins/platforminputcontexts
+
 $ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/gcc_64/plugins/platforminputcontexts /opt/Qt/5.7/Tools/QtCreator/bin/plugins/platforminputcontexts
 #+END_SRC
 
