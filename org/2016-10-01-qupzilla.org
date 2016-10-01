@@ -27,12 +27,16 @@ $ sudo ln -s /opt/Qt/5.7/gcc_64/bin/qmake /usr/lib/x86_64-linux-gnu/qt4/bin/qmak
 $ sudo apt install libxcb-util-dev libssl-dev mesa-common-dev libgl1-mesa-glx libgl1-mesa-dev
 #+END_SRC
 
-** 4. ビルド
+** 4. ビルド & インストール
 
    - [[http://www.linuxfromscratch.org/blfs/view/svn/lxqt/qupzilla.html][ここ]] を参考にビルドします。
 
 #+BEGIN_SRC shell
 $ export QUPZILLA_PREFIX=/usr && qmake && make
+#+END_SRC
+
+#+BEGIN_SRC shell
+$ sudo make install
 #+END_SRC
 
    - libGLが足りないと言われた場合はリンクを張りなおします。
