@@ -1,0 +1,57 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: Linux MintでQupZilla 2.0.1をビルド
+---
+#+END_HTML
+
+* 手順
+** 1. Qtをインストール
+   [[https://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run.mirrorlist]]
+
+   - 私がダウンロードしたときはqt-unified-linux-x64-2.0.3-1-online.runでした。実行属性をつけてガイドに従いインストールします。
+
+** 2. qmakeにリンクを張る
+
+#+BEGIN_SRC shell
+$ sudo ln -s /opt/Qt/5.7/gcc_64/bin/qmake /usr/lib/x86_64-linux-gnu/qt4/bin/qmake 
+#+END_SRC
+
+   - インストールしたQtでqmakeしようとすると /usr/lib/x86_64-linux-gnu/qt4/bin/qmake がないと言われるのでリンクを張ります。
+
+** 3. ビルドに必要なパッケージをインストール
+
+#+BEGIN_SRC shell
+$ sudo apt install libxcb-util-dev libssl-dev mesa-common-dev libgl1-mesa-glx libgl1-mesa-dev
+#+END_SRC
+
+** 4. ビルド
+
+   - [[http://www.linuxfromscratch.org/blfs/view/svn/lxqt/qupzilla.html][ここ]] を参考にビルドします。
+
+#+BEGIN_SRC shell
+$ export QUPZILLA_PREFIX=/usr && qmake && make
+#+END_SRC
+
+   - libGLが足りないと言われた場合はリンクを張りなおします。
+
+#+BEGIN_SRC shell
+$ sudo ln -s /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 /usr/lib/x86_64-linux-gnu/mesa/libGL.so
+$ sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/mesa/libGL.so
+$ sudo ldconfig
+#+END_SRC
+
+** 5. fcitxで日本語入力ができるようにする
+
+   - インストールしただけでは日本語入力ができないので，
+     [[http://diginatu.github.io/ubuntu/fcitx/qt/2015/01/09/qt-fcitx-in-ubuntu.html]]
+     を参考にfcitxのライブラリをコピーします。
+
+#+BEGIN_SRC shell
+$ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/gcc_64/plugins/platforminputcontexts
+$ sudo cp /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/Qt/5.7/gcc_64/plugins/platforminputcontexts /opt/Qt/5.7/Tools/QtCreator/bin/plugins/platforminputcontexts
+#+END_SRC
+
+* あとがき
+  Chrome系ブラウザは[[https://ja.wikipedia.org/wiki/ブラウザ戦争#cite_ref-14][ メモリをドカ食い]] することが知られています。QtWebEngineはそれよりもメモリ使用量が抑えられているとのことですが，その恩恵を受けられるQtWebEngine5.6以降のブラウザにはLinux版が提供されていません。そこで今回QtWebEngine5.7に対応するQupZilla 2.0.1をLinux Mint 18にインストールしてみたのですが，依存ライブラリが色々あったり日本語入力の設定に手間取ったりして結構大変でした。そこで今回記事にしてみました。
