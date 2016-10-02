@@ -116,4 +116,4 @@ M-x magit-status
   - Unstaged Filesをsを押してStagedにする
   - c cでコメントを書いてC-c C-cでコミット
   - Shift-P uでユーザー名とパスワードを入力してGitHubにプッシュする
-    + sshで簡略化する方法もありますが，その場合はWindows環境でのプッシュのために追加の設定が必要になるので採用していません
+    + (追記 2016/10/03) 初回の設定に手間がかかりますがsshで簡略化する方法もあります → [[https://jamcha-aa.github.io/2016/09/13/ntemacs.html][https://jamcha-aa.github.io/2016/09/13/ntemacs.html]]
