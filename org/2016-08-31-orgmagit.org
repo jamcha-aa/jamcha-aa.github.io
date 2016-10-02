@@ -97,7 +97,7 @@ M-x magit-status
   [[file:10.png]]
 
   <br>
-  Shift-P を押すと下のようになるので，Enterを押します。
+  Shift-P を押すと下のようになるので，uを押したあとEnterを押します。
   #+ATTR_HTML: width="300px"
   [[file:11.png]]
 
