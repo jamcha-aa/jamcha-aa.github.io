@@ -20,13 +20,13 @@ title: MiKTeX 2.9でのEmacs + LuaTeX環境構築
     Refresh FNDBとUpdate Formatsを行う
 
     #+ATTR_HTML: width="300px"
-    file:01.png
+    [[file:01.png][MikTeX screen]]
 
 **  4. MiKTeX Settings (Admin) 
     Formatタブで，luatexとlualatexをBuildする。
 
     #+ATTR_HTML: width="300px"
-    file:02.png
+    [[file:02.png][MikTeX Options]]
 
 **  5. MiKTeX 2.9\tex\luatex\luatexja
     に移動して，管理者端末で以下を実行 (luatex-jaマニュアルより)。3と4

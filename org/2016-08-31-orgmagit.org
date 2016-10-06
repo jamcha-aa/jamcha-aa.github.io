@@ -30,12 +30,12 @@ title: org-modeで書いた小説をmagitでGitHubに投稿する
 * GitHubでリポジトリ作成
   GitHubでリポジトリを作成します。
   #+ATTR_HTML: width="300px"
-  [[file:01.png]]
+  [[file:01.png][Create a new repository]]
 
   <br>
   リポジトリができました。
   #+ATTR_HTML: width="350px"
-  [[file:02.png]]
+  [[file:02.png][git information]]
 
 * org-modeで書いたファイルをmarkdown形式にする
   文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。
@@ -54,62 +54,62 @@ M-x magit-status
 #+END_EXAMPLE
 
 <br>
-実行すると下のようになります。
+実行すると別ウインドウにmagit-statusの画面が表示されす
   #+ATTR_HTML: width="300px"
-  [[file:03.png]]
+  [[file:03.png][magit-status]]
 
   Enterを押すとgitリポジトリを作成するか聞かれるので，yを押すとフォルダ内に.gitフォルダが作成されます。
 
   <br>
-  次にmagit-statusを起動すると下のようになります。
+  次にmagit-statusを起動すると変更点が表示されます。
   #+ATTR_HTML: width="300px"
-  [[file:04.png]]
+  [[file:04.png][Untracked files]]
 
   <br>
   ここでsを押すと，"Unstaged" が "Staged" に変わります。コミットの準備完了の合図です。
   #+ATTR_HTML: width="300px"
-  [[file:05.png]]
+  [[file:05.png][Staged changes]]
 
   <br>
-  cを2回押すと下のような画面になるので，コメントを書きます。
+  cを2回押すとコミット画面になるので，コメントを書きます。
   #+ATTR_HTML: width="300px"
-  [[file:06.png]]
+  [[file:06.png][COMMIT_EDITMSG]]
   
   <br>
   コメントを書き終わってC-c C-cするとコミットが完了します。
   #+ATTR_HTML: width="300px"
-  [[file:07.png]]
+  [[file:07.png][Commit finished]]
 
 * GitHubにプッシュする
 
-  Shift-M aを押すと下のように入力を促されるので，originと入力します。
+  Shift-M aを押すとRemote nameの入力を促されるので，originと入力します。
   #+ATTR_HTML: width="300px"
-  [[file:08.png]]
+  [[file:08.png][Remote name]]
 
   <br>
   Remote先をきかれるので，GitHubの該当するリポジトリURLを入力します (今回はShortShortのあるURL)。
   #+ATTR_HTML: width="300px"
-  [[file:09.png]]
+  [[file:09.png][Remote url]]
 
   <br>
-  Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。すると下のようになります。
+  Set 'remote.pushDefault' to "origin"? ときかれるのでyを押します。するとorigin/master is missingとなります。
   #+ATTR_HTML: width="300px"
-  [[file:10.png]]
+  [[file:10.png][origin master is missing]]
 
   <br>
-  Shift-P を押すと下のようになるので，uを押したあとEnterを押します。
+  Shift-P uを押すとupsteam of masterを選択するよう促されるので，そのままEnterを押します。
   #+ATTR_HTML: width="300px"
-  [[file:11.png]]
+  [[file:11.png][Change upstream of master to]]
 
   <br>
-  ユーザー名とパスワードを入力し，下のようになればプッシュ完了です。
+  ユーザー名とパスワードを入力し，Git finishedと表示されればプッシュ完了です。
   #+ATTR_HTML: width="300px"
-  [[file:12.png]]
+  [[file:12.png][Git finished]]
 
   <br>
-  ブラウザで見ると，空っぽのときと比べてファイルが追加されているのがわかります。
+  ブラウザでリポジトリを見ると，空っぽのときと比べてファイルが追加されているのがわかります。
   #+ATTR_HTML: width="300px"
-  [[file:13.png]]
+  [[file:13.png][browser repository screen]]
 
 * 以降の流れ
   - 文章を書いたらmagit-statusを起動
