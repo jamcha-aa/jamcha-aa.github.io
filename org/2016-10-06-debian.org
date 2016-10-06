@@ -1,0 +1,21 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: ^:{}
+#+BEGIN_HTML
+---
+layout: post
+title: DebianでLuaTeX環境を整備
+---
+#+END_HTML
+
+* 手順
+#+BEGIN_SRC shell
+$ apt install texlive-cjk texlive-luatex texlive-xetex
+#+END_SRC
+
+必要な容量は2GBくらいのようです。
+
+** 備考
+Debian 64bit MATE環境に，上記のtex環境と，ビルドしたemacs 25をあわせた容量は8GBくらいです。
+
+* あとがき
+あるWin10マシンのmagitが遅すぎてつらい (passmarkは7000くらいなのになぜかpassmark 1000のWin10ノートより遅い) ので，VirtualBoxでDebian環境を構築してみました。EmacsとTeXを使うだけであれば8GB程度で済むことがわかったので，20GBくらいの固定イメージを作成すれば十分のようです。
