@@ -9,7 +9,7 @@ title: DebianでLuaTeX環境を整備
 
 * 手順
 #+BEGIN_SRC shell
-$ apt install texlive-cjk texlive-luatex texlive-xetex
+$ apt install texlive-lang-cjk texlive-luatex texlive-xetex
 #+END_SRC
 
 必要な容量は2GBくらいのようです。
