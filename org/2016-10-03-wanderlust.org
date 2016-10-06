@@ -24,8 +24,8 @@ M-x package-install wanderlust
 
 ** 動作している様子
 
-    #+ATTR_HTML: width="400px"
-    [[file:01.png][sample screenshot]]
+    #+ATTR_HTML: alt="Sample screenshot" width="400px"
+    [[file:01.png]]
 
     emacs 25.1で使っています
 

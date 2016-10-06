@@ -20,12 +20,12 @@ Linux Mint cinnamonのFirefoxが重かったのでLinux Mint Debian Edition 2 (L
 * 日本語化
 
 ** システム設定の「入力方法」を選ぶ
-    #+ATTR_HTML: width="300px"
-    [[file:01.png][system configuration]]
+    #+ATTR_HTML: alt="system configuration" width="300px"
+    [[file:01.png]]
 
 ** しばらく待つと「入力メソッド」タブにfcitxが表示されるので，クリックしてインストール
-    #+ATTR_HTML: width="300px"
-    [[file:02.png][fcitx selection]]
+    #+ATTR_HTML: alt="fcitx selection" width="300px"
+    [[file:02.png]]
 
 
   - 本家Mintにもありましたが日本語化はしやすいです。端末を起動しなくても日本語設定をしてくれます。

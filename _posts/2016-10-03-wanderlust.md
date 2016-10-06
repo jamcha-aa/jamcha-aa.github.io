@@ -23,7 +23,7 @@ title: Windows環境のEmacsでWanderlustを使ってGmailを読む
 
 ## 動作している様子
 
-[sample screenshot](01.png)
+![img](01.png)
 
 emacs 25.1で使っています
 
