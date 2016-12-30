@@ -9,6 +9,9 @@ feature-img: "img/sample_feature_img_2.png"
 
 jamcha: 自作の小説をGitHubに投稿しています。
 
+
+-   [ブログ記事一覧](https://jamcha-aa.github.io/archive.html) 
+
 ### 連載中の小説
 
 -   [Lore](https://github.com/jamcha-aa/Lore) 2chオカ板ロア風の4行小説集。
