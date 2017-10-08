@@ -17,6 +17,7 @@ jamcha: 自作の小説をGitHubに投稿しています。
 -   [Lore](https://github.com/jamcha-aa/Lore) 2chオカ板ロア風の4行小説集。
 -   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades) 滅亡した国を舞台に繰り広げられるダークファンタジー小説。
 -   [短編小説集](https://github.com/jamcha-aa/ShortShort) 
+-   [SCP風オブジェクト集](https://github.com/jamcha-aa/ShortShort) SCP Foundation風の自作オブジェクト集。
 -   Loreの一部，短編小説集はスマホ向けのサイトでも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
 ### Contact
