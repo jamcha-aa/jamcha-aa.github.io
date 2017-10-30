@@ -3,7 +3,7 @@
 #+BEGIN_HTML
 ---
 layout: post
-title: Debian 9.2 ログイン後デスクトップが表示されないのを修復する & VirtualBoxでGuestAdditionをインストール
+title: Debian 9.2 ログイン後デスクトップが表示されない問題を修復する & VirtualBoxでGuestAdditionをインストール
 ---
 #+END_HTML
 
