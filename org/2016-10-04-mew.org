@@ -9,6 +9,7 @@ title: Emacs Mewのhtmlメールをewwで読む
 
 * 手順
 ** 1. [[http://www.mew.org/ja/][Mewの公式サイト]] からMewのソースをダウンロードし，解凍する
+   - certs~.tar.gzは解凍したあと.certsという名前に変更しホームディレクトリに入れる
 ** 2. 解凍されたフォルダにあるbinフォルダ内へ移動
 ** 3. バイナリをビルド
 #+BEGIN_SRC shell
