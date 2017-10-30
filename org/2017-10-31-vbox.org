@@ -14,20 +14,17 @@ title: Debian 9.2 ログイン後デスクトップが表示されない問題�
 * Virtualboxの場合
   1. 上記「実機の場合」を終える
   2. https://unix.stackexchange.com/questions/286934/how-to-install-virtualbox-guest-additions-in-a-debian-virtual-machine を参考に，
-
      #+BEGIN_SRC shell
      $ apt install build-essential module-assistant
      $ m-a prepare
      #+END_SRC
   3. /etc/apt/sources.listに
-
      #+BEGIN_SRC shell
      deb http://http.us.debian.org/debian sid main non-free contrib 
      #+END_SRC
-
      を追加
   4. apt update後，virtualbox-guest-で始まるパッケージ (source, dkms, utils, x11) をインストールし，depmod云々が出力されていれば成功
-  5. souces.listから3.で追加した行を削除またはコメントアウト
+  5. sources.listから3.で追加した行を削除またはコメントアウト
 
 * あとがき  
   10月の時点では公式のGuestAdditionを入れても動作せず，導入に手こずったためメモとして残しました。なおdebianのemacsは，上記3の追加時にインストールすると安定版より新しいバージョンが使えます。
