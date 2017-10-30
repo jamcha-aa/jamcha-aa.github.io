@@ -8,8 +8,9 @@ title: Debian 9.2 ログイン後デスクトップが表示されない問題�
 #+END_HTML
 
 * 実機の場合
-  1. /etc/apt/sources.listの各行末尾に contrib non-freeを追加
-  2. apt update後，firmware-linux-nonfreeをインストール
+  1. ログイン画面が出たら，Ctrl + Alt + F2でXを落とす
+  2. /etc/apt/sources.listの各行末尾に contrib non-freeを追加
+  3. apt update後，firmware-linux-nonfreeをインストール
 
 * Virtualboxの場合
   1. 上記「実機の場合」を終える
