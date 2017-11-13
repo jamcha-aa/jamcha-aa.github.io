@@ -38,7 +38,7 @@ title: org-modeで書いた小説をmagitでGitHubに投稿する
   [[file:02.png]]
 
 * org-modeで書いたファイルをmarkdown形式にする
-  文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。
+  文章を書いた.orgファイルそのものはブラウザで読みやすい形にはしてくれないので，markdown形式に出力します。(追記: githubのバージョンアップでorgファイルでも読みやすくなりました。)
 
 #+BEGIN_EXAMPLE
 C-c C-e m m
@@ -54,7 +54,7 @@ M-x magit-status
 #+END_EXAMPLE
 
 <br>
-実行すると別ウインドウにmagit-statusの画面が表示されす
+実行すると別ウインドウにmagit-statusの画面が表示されます (adminiという名前ですが権限は一般ユーザーです)。
   #+ATTR_HTML: alt="magit-status" width="300px"
   [[file:03.png]]
 
@@ -116,4 +116,4 @@ M-x magit-status
   - Unstaged Filesをsを押してStagedにする
   - c cでコメントを書いてC-c C-cでコミット
   - Shift-P uでユーザー名とパスワードを入力してGitHubにプッシュする
-    + (追記 2016/10/03) 初回の設定に手間がかかりますがsshで簡略化する方法もあります → [[https://jamcha-aa.github.io/2016/09/13/ntemacs.html][https://jamcha-aa.github.io/2016/09/13/ntemacs.html]]
+    + (追記 2016/10/03) 初回の設定に手間がかかりますがsshで簡略化する方法もあります。オススメ。 → [[https://jamcha-aa.github.io/2016/09/13/ntemacs.html][https://jamcha-aa.github.io/2016/09/13/ntemacs.html]]

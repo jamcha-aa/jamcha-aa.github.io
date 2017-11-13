@@ -35,3 +35,5 @@ title: Windows版emacsでmagitとtwitterを使う
 * あとがき
 
   gnupackはwindowsでemacsを使う決定版だと思っているのですが，昨今の格安ファンレスノートPC (EeeBookとかHP streamとか) はストレージの容量が32gbしかなく，w32texを最小インストール + \alpha するとgnupackを入れる余裕がありません。そこで展開しても200mbに納まるwindows版emacsを愛用しています。ただmagitとtwitterを使おうと思ったときに，gpgとtlsの設定や，遅すぎるmagitの問題解決 (特に2と9) に手こずってしまいました。そのため今回記事にしてみました。emacs 25が出たら再び似たようなトラブルに遭遇するんじゃないかと思っています。
+
+  追記: その後emacs25，およびテスト版のemacs26を使用しましたがトラブルにはあいませんでした。
