@@ -27,13 +27,13 @@ title: GitHubに投稿した小説を分岐させてmagitで管理する
   [[file:03.png]]
 
   <br>
+  origin/anotherブランチに移動しました。
+
   #+ATTR_HTML: alt="moved to another branch" width="300px"
   [[file:04.png]]
 
   <br>
-  origin/anotherブランチに移動しました。
-
-  続いてローカルブランチを作ります。"b" 次いで "c" を押すと作成するブランチ名を聞かれます (Checkout new branch)。origin/anotherを選択してEnterを押すと，ブランチ名を要求されます。
+  続いてローカルブランチを作ります。"b" 次いで "c" を押すと，どのブランチを基にするか聞かれます (Checkout new branch)。origin/anotherを選択してEnterを押すと，ブランチ名を要求されます。
 
   #+ATTR_HTML: alt="Create a local branch" width="300px"
   [[file:05.png]]
@@ -57,10 +57,10 @@ title: GitHubに投稿した小説を分岐させてmagitで管理する
   [[file:08.png]]
 
   <br>
+  コミットできました。
+
   #+ATTR_HTML: alt="commit finished" width="300px"
   [[file:09.png]]
-
-  コミットできました。
 
   このままプッシュすると，リモートブランチに反映されます。
 
