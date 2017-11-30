@@ -30,4 +30,4 @@ title: Debian 9.2 ログイン後デスクトップが表示されない問題�
 * あとがき  
   10月の時点では公式のGuestAdditionを入れても動作せず，導入に手こずったためメモとして残しました。なおdebianのemacsは，上記3の追加時にインストールすると安定版より新しいバージョンが使えます。
 * 追記
-  virtualboxに関して，[[https://forums.virtualbox.org/viewtopic.php?f%3D3&t%3D85132][上記の問題は修正されたようです。]]
+  virtualboxに関して，上記の問題は修正されたようです (https://forums.virtualbox.org/viewtopic.php?f=3&t=85132)。
