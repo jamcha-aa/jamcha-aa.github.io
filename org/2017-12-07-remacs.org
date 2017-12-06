@@ -1,0 +1,53 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: RustによるEmacs実装「Remacs」をビルド
+---
+#+END_HTML
+
+* テスト環境
+  - Ubuntu MATE 16.04.3 (Virtualbox)
+  - Linux Mint 18.3 (実機)
+  - どちらもUbuntuベースなので，Ubuntu系ならインストールできると推察されます。なお32bit LinuxはDocker環境でないとビルドできないようです ([[https://github.com/Wilfred/remacs/issues/294][https://github.com/Wilfred/remacs/issues/294]])。
+
+* 手順 (といってもほぼ公式準拠)
+** Rustをインストール ([[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]])
+   #+BEGIN_SRC 
+   curl https://sh.rustup.rs -sSf | sh
+   #+END_SRC
+
+   - インストール方法を聞いてくるので，1.の通常インストールを選びましょう。
+   - インストールを終えたら設定を反映させるためログインし直します。
+
+** remacsリポジトリをクローンし，Rustを開発版にする
+   #+BEGIN_SRC 
+   git clone https://github.com/Wilfred/remacs.git
+   cd remacs/rust_src
+   rustup install `cat rust-toolchain`
+   cd ../
+   rustup override set nightly
+   #+END_SRC
+
+** 必要なソフトウェアをインストール
+   #+BEGIN_SRC 
+   sudo apt install autoconf texinfo libjpeg-dev libtiff-dev \
+   libgif-dev libxpm-dev libgtk-3-dev libgnutls-dev \
+   libncurses5-dev libxml2-dev
+   #+END_SRC
+
+** ビルドを実行
+   #+BEGIN_SRC 
+   $ ./autogen.sh
+   $ ./configure --enable-rust-debug
+   $ make
+   #+END_SRC
+
+** 動作している様子
+   #+ATTR_HTML: alt="remacs screen" width="300px"
+   [[file:01.png]]
+
+   [[https://github.com/jamcha-aa/init][私が現在使用しているパッケージ]]はすべて互換性がありました。
+
+** あとがき
+   remacsはemacsの核であるlispインタプリタをRustに置き換える試みですが，ここまで本家と違和感なく使えるとは思いませんでした。Ubuntu系を使っている方は気軽に試してみてはいかがでしょうか。
