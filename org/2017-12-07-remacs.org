@@ -46,6 +46,8 @@ title: RustによるEmacs実装「Remacs」をビルド
    $ make
    #+END_SRC
 
+   - remacs/src内にremacsバイナリができます。
+
 ** 動作している様子
    #+ATTR_HTML: alt="remacs screen" width="300px"
    [[file:01.png]]
