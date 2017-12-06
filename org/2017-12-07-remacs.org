@@ -6,6 +6,9 @@ title: RustによるEmacs実装「Remacs」をビルド
 ---
 #+END_HTML
 
+* Remacs公式
+  - [[https://github.com/Wilfred/remacs][https://github.com/Wilfred/remacs]]
+
 * テスト環境
   - Ubuntu MATE 16.04.3 (Virtualbox)
   - Linux Mint 18.3 (実機)
