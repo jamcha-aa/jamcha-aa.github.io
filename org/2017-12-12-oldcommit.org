@@ -90,7 +90,7 @@ title: magitで過去のコミットからブランチを作ってマージす�
    [[file:14.png]]
 
    <br>
-   コミットのマージにうつります。b，続いてcを押し，取り込みたいブランチを選び，Enterを押しましょう (ここではGPModeline)。
+   コミットのマージにうつります。mを2回押し，取り込みたいブランチを選んでからEnterを押しましょう (ここではGPModeline)。
 
    #+ATTR_HTML: alt="select branch for merge" width="300px"
    [[file:15.png]]
