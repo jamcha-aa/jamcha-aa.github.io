@@ -1,0 +1,120 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: magitで過去のコミットからブランチを作ってマージする
+---
+#+END_HTML
+
+* はじめに
+  Rustによるemacs実装である[[https://github.com/Wilfred/remacs][Remacs]]を古いノートPC (EeePC 1000H-X) に入れて，32bit環境ではどういうバグがあるか試しています。スペックが低いせいか，powerlineが重かったので，導入以前に使っていたシンプルなモードラインをgitの履歴から復活させることにしました。
+
+* 手順 
+** 過去のコミットからブランチを作成
+
+   M-x magit-statusでmagitを呼び出し，lとbを押して履歴を表示します。
+
+   #+ATTR_HTML: alt="Show commit history" width="300px"
+   [[file:02.png]]
+
+   <br>
+   履歴画面では逐次検索ができるので「powerline」で検索すると，該当するコミットが見つかりました。
+
+   #+ATTR_HTML: alt="search in history" width="300px"
+   [[file:03.png]]
+
+   <br>
+   powerline以前に使用していたものは，その1つ前のコミットまで残っているはずです (色が違う部分)。
+
+   #+ATTR_HTML: alt="target of old commit" width="300px"
+   [[file:04.png]]
+
+   <br>
+   b, 次いでcを押し，ブランチを作成します。対象は普段使っているmasterなどでなく，コミットした番号の上7桁になります。
+
+   #+ATTR_HTML: alt="create branch" width="300px"
+   [[file:05.png]]
+
+   <br>
+   ブランチ名はGPModelineにしました。
+
+   #+ATTR_HTML: alt="insert branch name" width="300px"
+   [[file:06.png]]
+
+   <br>
+   ブランチを作成すると自動的にチェックアウトされます。画面上半分を更新すると，当時残っていたファイルも復活しているのがわかります。
+
+   #+ATTR_HTML: alt="create and checkout branch succeeded" width="300px"
+   [[file:07.png]]
+
+** 内容を更新し，masterブランチにマージする
+   最新のコミットに残したい部分のみ修正します。ここではpowerline以前に使っていたmode-line-linux.elを残したいので，gp-mode-line-linux.elという名前に変更しました。
+
+   #+ATTR_HTML: alt="rename an essential file" width="300px"
+   [[file:08.png]]
+
+   <br>
+   magit-statusを再び開くと，変更点が表示されるので，ふだんと同じ手続きでコミットしましょう。
+
+   #+ATTR_HTML: alt="create a commit" width="300px"
+   [[file:09.png]]
+
+   <br>
+   Untracked filesの上でsを押し，
+
+   #+ATTR_HTML: alt="staged changes" width="300px"
+   [[file:10.png]]
+
+   <br>
+   cを2回押してコミットメッセージを書き，
+
+   #+ATTR_HTML: alt="insert commit messages" width="300px"
+   [[file:11.png]]
+
+   <br>
+   "Ctrl+c"を2回押してコミット完了です。
+
+   #+ATTR_HTML: alt="commit finished" width="300px"
+   [[file:12.png]]
+
+   <br>
+   ここからmasterブランチにうつって，先のコミットを取り込むことにします。bを2回押してmasterにチェックアウトしましょう。
+
+   #+ATTR_HTML: alt="checkout to master" width="300px"
+   [[file:13.png]]
+
+   <br>
+   masterにチェックアウトしました。
+
+   #+ATTR_HTML: alt="checkout finished" width="300px"
+   [[file:14.png]]
+
+   <br>
+   コミットのマージにうつります。b，続いてcを押し，取り込みたいブランチを選び，Enterを押しましょう (ここではGPModeline)。
+
+   #+ATTR_HTML: alt="select branch for merge" width="300px"
+   [[file:15.png]]
+
+   <br>
+   masterブランチにマージされました。
+
+   #+ATTR_HTML: alt="merge finished" width="300px"
+   [[file:16.png]]
+
+   <br>
+   すぐ使えるように，init.elにモードライン用の設定を追加し，コミットしました。なおローカルのGitリポジトリであればこれで終了です。
+
+   #+ATTR_HTML: alt="edit init.el for modeline" width="300px"
+   [[file:17.png]]
+
+   <br>
+   準備ができたら，Shift-P，続いてuを押してリモートにプッシュします。
+
+   #+ATTR_HTML: alt="init.el modified" width="300px"
+   [[file:18.png]]
+
+   <br>
+   プッシュ完了後にl，bを押してgitの履歴を見ると，無事に取り込まれていることがわかります。
+
+   #+ATTR_HTML: alt="checking commit history" width="300px"
+   [[file:19.png]]
