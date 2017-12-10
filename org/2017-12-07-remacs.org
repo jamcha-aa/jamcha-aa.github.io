@@ -60,7 +60,7 @@ title: RustによるEmacs実装「Remacs」をビルド
 * 32bit版Linuxの場合 
   32bit版のLinuxでは公式の手順だとエラーが生じる ([[https://github.com/Wilfred/remacs/issues/294][https://github.com/Wilfred/remacs/issues/294]]) ので，上記の「必要なソフトウェアをインストールする」までを実行したら，次の手続きでビルドします。
 
-  #+BEGIN_SRC
+  #+BEGIN_SRC 
   $ sed -i -e "s/i64/i32/g" rust_src/src/lisp.rs
   $ ./autogen.sh
   $ ./configure --build=i686-pc-linux-gnu "CFLAGS=-m32" "CXXFLAGS=-m32" "LDFLAGS=-m32" --enable-rust-debug
