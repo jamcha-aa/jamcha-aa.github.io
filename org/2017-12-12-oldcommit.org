@@ -12,7 +12,7 @@ title: magitで過去のコミットからブランチを作ってマージす�
 * 手順 
 ** 過去のコミットからブランチを作成
 
-   M-x magit-statusでmagitを呼び出し，lとbを押して履歴を表示します。
+   M-x magit-statusでmagitを呼び出し，l, bを押して履歴を表示します。
 
    #+ATTR_HTML: alt="Show commit history" width="300px"
    [[file:02.png]]
