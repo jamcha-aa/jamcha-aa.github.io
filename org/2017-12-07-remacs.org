@@ -11,8 +11,11 @@ title: RustによるEmacs実装「Remacs」をビルド
 
 * テスト環境
   - Ubuntu MATE 16.04.3 (Virtualbox)
-  - Linux Mint 18.3 (実機)
-  - どちらもUbuntuベースなので，Ubuntu系ならインストールできると推察されます。なお32bit LinuxはDocker環境でないとビルドできないようです ([[https://github.com/Wilfred/remacs/issues/294][https://github.com/Wilfred/remacs/issues/294]])。
+  - Windows Subsystem for Linux (実機, Ubuntu 16.04 based)
+  - Xubuntu 16.04.3 (実機, Ubuntu 16.04 based)
+  - Linux Mint 18.3 (実機, Ubuntu 16.04 based)
+  - Linux Mint Debian Edition 2 (実機, Debian jessie based)
+  - Debian系もしくはその派生であるUbuntu系ならインストールできると推察されます。
 
 * 手順 (といってもほぼ公式準拠)
 ** Rustをインストール ([[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]])
@@ -53,6 +56,19 @@ title: RustによるEmacs実装「Remacs」をビルド
    [[file:01.png]]
 
    [[https://github.com/jamcha-aa/init][私が現在使用しているパッケージ]]はすべて互換性がありました。
+
+* 32bit版Linuxの場合 
+  32bit版のLinuxでは公式の手順だとエラーが生じる ([[https://github.com/Wilfred/remacs/issues/294][https://github.com/Wilfred/remacs/issues/294]]) ので，上記の「必要なソフトウェアをインストールする」までを実行したら，次の手続きでビルドします。
+
+  #+BEGIN_SRC
+  $ sed -i -e "s/i64/i32/g" rust_src/src/lisp.rs
+  $ ./autogen.sh
+  $ ./configure --build=i686-pc-linux-gnu "CFLAGS=-m32" "CXXFLAGS=-m32" "LDFLAGS=-m32" --enable-rust-debug
+  $ RUST_BACKTRACE=0 make
+  #+END_SRC
+
+  ここではlisp.rsの命令を32bitに修正して，make時のbacktraceを無効にしました。
+  スワップが1GB程度あればコアダンプせずに最後まで実行できると思います。
 
 ** あとがき
    remacsはemacsの核であるlispインタプリタをRustに置き換える試みですが，ここまで本家と違和感なく使えるとは思いませんでした。Ubuntu系を使っている方は気軽に試してみてはいかがでしょうか。
