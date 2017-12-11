@@ -16,6 +16,7 @@ title: RustによるEmacs実装「Remacs」をビルド
     + Windows Subsystem for Linux (実機, Ubuntu 16.04 based, 64bit)
     + Linux Mint Debian Edition 2 (実機, Debian jessie based, 32bit)
     + Xubuntu 16.04.3 (実機, Ubuntu 16.04 based, 32bit)
+    + Debian 9.3 (実機, 32bit)
   - Debian系もしくはその派生であるUbuntu系ならインストールできると推察されます。
 
 * 手順 (といってもほぼ公式準拠)
@@ -69,7 +70,10 @@ title: RustによるEmacs実装「Remacs」をビルド
   #+END_SRC
 
   ここではlisp.rsの命令を32bitに修正して，make時のbacktraceを無効にしました。
+
   スワップが1GB程度あればコアダンプせずに最後まで実行できると思います。
+
+  追記: 現在lisp.rsのキャストが修正されたため，1行目は不要です。
 
 ** あとがき
    remacsはemacsの核であるlispインタプリタをRustに置き換える試みですが，ここまで本家と違和感なく使えるとは思いませんでした。Ubuntu系を使っている方は気軽に試してみてはいかがでしょうか。

@@ -7,7 +7,7 @@ title: magitで過去のコミットからブランチを作ってマージす�
 #+END_HTML
 
 * はじめに
-  Rustによるemacs実装である[[https://github.com/Wilfred/remacs][Remacs]]を古いノートPC (EeePC 1000H-X) に入れて，32bit環境ではどういうバグがあるか試しています。スペックが低いせいか，[[https://github.com/jamcha-aa/init][私が使っている環境]]ではpowerlineが重かったので，導入以前に使っていたシンプルなモードラインをgitの履歴から復活させることにしました。
+  [[https://github.com/Wilfred/remacs][Remacs]]を32bit CPUの古いノートPCに入れて動かしています。スペックが低いせいか，[[https://github.com/jamcha-aa/init][私が使っている環境]]ではpowerlineが重かったので，導入以前に使っていたシンプルなモードラインをgitの履歴から復活させることにしました。
 
 * 手順 
 ** 過去のコミットからブランチを作成
