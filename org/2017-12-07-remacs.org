@@ -69,9 +69,7 @@ title: RustによるEmacs実装「Remacs」をビルド
   $ RUST_BACKTRACE=0 make
   #+END_SRC
 
-  ここではlisp.rsの命令を32bitに修正して，make時のbacktraceを無効にしました。
-
-  スワップが1GB程度あればコアダンプせずに最後まで実行できると思います。
+  ここではlisp.rsの命令を32bitに修正して，make時のbacktraceを無効にしました。スワップが1GB程度あればコアダンプせずに最後まで実行できると思います。
 
   追記: 現在lisp.rsのキャストが修正されたため，1行目は不要です。
 
