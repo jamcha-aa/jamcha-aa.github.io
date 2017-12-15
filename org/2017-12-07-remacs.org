@@ -6,7 +6,6 @@ title: RustによるEmacs実装「Remacs」をビルド
 ---
 #+END_HTML
 
-
 * Remacs公式
   - [[https://github.com/Wilfred/remacs][https://github.com/Wilfred/remacs]]
 
