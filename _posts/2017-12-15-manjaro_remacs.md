@@ -10,7 +10,7 @@ title: Manjaro Linuxにremacsをインストール
     $ pacman -Syyu
     $ pacman -S yaourt
 
-なお初期設定では，tmpディレクトリの容量制限 (1GB) のため次項のrust開発版がインストールできません。<https://gae-fan.blogspot.jp/2014/10/yaourt-tmp.html> に従ってtmpディレクトリの場所を変更しておいてください。
+初期設定では，tmpディレクトリの容量制限 (1GB) のため次項のrust開発版がインストールできません。<https://gae-fan.blogspot.jp/2014/10/yaourt-tmp.html> に従ってtmpディレクトリの場所を変更しておいてください。[yaourt-tmp-changer](https://github.com/jamcha-aa/yaourt-tmp-changer) でも変更できます。
 
 ## Rust開発版，remacsをインストール
 
