@@ -1,0 +1,39 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: Manjaro Linuxにremacsをインストール
+---
+#+END_HTML
+
+* 手順
+** yaourtをインストール
+
+#+BEGIN_SRC 
+$ pacman -Syyu
+$ pacman -S yaourt
+#+END_SRC
+
+なお初期設定では，tmpディレクトリの容量制限 (1GB) のため次項のrust開発版がインストールできません。[[https://gae-fan.blogspot.jp/2014/10/yaourt-tmp.html]] に従ってtmpディレクトリの場所を変更しておいてください。
+
+** Rust開発版，remacsをインストール
+
+#+BEGIN_CENTER
+$ yaourt remacs
+#+END_CENTER
+
+yaourtは必要なライブラリもまとめてインストールしてくれますが，途中で「Rustをnightlyにして」と言われます。ターミナルでtmp/makepkg/remacsに移動し，remacs公式のREADMEに書かれた次のコマンドを実行してください。
+
+#+BEGIN_SRC 
+$ cd rust_src
+$ rustup install `cat rust-toolchain`
+$ cd ../
+$ rustup override set nightly
+#+END_SRC
+
+改めてyaourtを実行します。
+
+#+BEGIN_SRC 
+$ yaourt remacs
+#+END_SRC
+
