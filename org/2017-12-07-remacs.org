@@ -23,7 +23,7 @@ title: RustによるEmacs実装「Remacs」をビルド
 * 手順 (といってもほぼ公式準拠)
 ** Rustをインストール
 
-   - URL: [[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]]
+   URL: [[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]]
 
    #+BEGIN_SRC 
    curl https://sh.rustup.rs -sSf | sh
