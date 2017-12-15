@@ -14,11 +14,9 @@ title: Manjaro Linuxにremacsをインストール
 
 ## Rust開発版，remacsをインストール
 
-<div class="center">
-$ yaourt remacs
-</div>
+    $ yaourt remacs
 
-yaourtはrustもまとめてインストールしてくれますが，途中で「Rustをnightlyにして」と言われます。ターミナルでtmp/makepkg/remacsに移動し，remacs公式のREADMEに書かれた次のコマンドを実行してください。
+yaourtは必要なライブラリもまとめてインストールしてくれますが，途中で「Rustをnightlyにして」と言われます。ターミナルでtmp/makepkg/remacsに移動し，remacs公式のREADMEに書かれた次のコマンドを実行してください。
 
     $ cd rust_src
     $ rustup install `cat rust-toolchain`
