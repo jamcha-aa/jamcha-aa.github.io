@@ -21,7 +21,10 @@ title: RustによるEmacs実装「Remacs」をビルド
   - Debian系もしくはその派生であるUbuntu系ならインストールできると推察されます。
 
 * 手順 (といってもほぼ公式準拠)
-** Rustをインストール ([[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]])
+** Rustをインストール
+
+   - URL: [[https://www.rust-lang.org/en-US/install.html][https://www.rust-lang.org/en-US/install.html]]
+
    #+BEGIN_SRC 
    curl https://sh.rustup.rs -sSf | sh
    #+END_SRC
