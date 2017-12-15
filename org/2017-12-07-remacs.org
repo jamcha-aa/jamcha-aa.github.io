@@ -1,4 +1,4 @@
-#+OPTIONS: toc:t
+#+OPTIONS: toc:t num:nil
 #+BEGIN_HTML
 ---
 layout: post
