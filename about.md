@@ -5,8 +5,6 @@ permalink: /about/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-### 自己紹介
-
 jamcha: オリジナルの小説をGitHubで書いてます。
 
 
