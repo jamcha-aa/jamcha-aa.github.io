@@ -16,7 +16,7 @@ jamcha: 自作の小説をGitHubに投稿しています。
 
 -   [Lore](https://github.com/jamcha-aa/Lore) 2chオカ板ロア風の4行小説集。
 -   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades) 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
--   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports) どこにもいられない主人公と，ここにしかいられないモンスター達の物語。連載中。
+-   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports) 謎の生態をもつ怪物たちと調査隊の物語。連載中。
     + 随時大幅な修正を行っているため，現在は目次をつけていません。articleフォルダから拡張子がmdのファイルを選択してお読みください。
 -   [短編小説集](https://github.com/jamcha-aa/ShortShort) 
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
