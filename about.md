@@ -26,7 +26,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
     + 随時大幅な修正を行っているため，現在は目次をつけていません。articleフォルダから拡張子がmdのファイルを選んでください。
 -   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades)
     + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
--   Loreの一部，短編小説集はスマホ向けのサイトでも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
+-   Loreの一部，短編小説集はwordpressでも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
 ### 自作フォント
 -   [KonG (混んG) フォント](https://github.com/jamcha-aa/KonG)
