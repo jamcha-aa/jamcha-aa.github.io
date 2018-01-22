@@ -12,17 +12,20 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 
 ### 作品一覧
 
--   [Lore](https://github.com/jamcha-aa/Lore)
+#### GitBook形式
+-   [Lore](https://jamcha-aa.gitbooks.io/lore/content/)
     + 2chオカ板ロア風の4行小説集。
--   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades)
-    + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
+-   [短編小説集](https://jamcha-aa.gitbooks.io/shortshort/content/)
+-   [SCP風オブジェクト集](https://jamcha-aa.gitbooks.io/scp/content/)
+    + SCP Foundation風の自作オブジェクト集。
+
+#### GitBook形式でないもの
+-   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
 -   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports)
     + 謎の生態をもつモンスターと調査隊の物語。連載中。
     + 随時大幅な修正を行っているため，現在は目次をつけていません。articleフォルダから拡張子がmdのファイルを選んでください。
--   [短編小説集](https://github.com/jamcha-aa/ShortShort)
--   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
--   [SCP風オブジェクト集](https://github.com/jamcha-aa/SCP)
-    + SCP Foundation風の自作オブジェクト集。
+-   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades)
+    + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
 -   Loreの一部，短編小説集はスマホ向けのサイトでも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
 ### 自作フォント
