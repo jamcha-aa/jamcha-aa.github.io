@@ -18,12 +18,12 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 -   [短編小説集](https://jamcha-aa.gitbooks.io/shortshort/content/)
 -   [SCP風オブジェクト集](https://jamcha-aa.gitbooks.io/scp/content/)
     + SCP Foundation風の自作オブジェクト集。
+-   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports)
+    + 謎の生態をもつモンスターと調査隊の物語。連載中。
+    + 随時ストーリーの修正を行っています。
 
 #### GitBook形式でないもの
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
--   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports)
-    + 謎の生態をもつモンスターと調査隊の物語。連載中。
-    + 随時大幅な修正を行っているため，現在は目次をつけていません。articleフォルダから拡張子がmdのファイルを選んでください。
 -   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades)
     + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
 -   Loreの一部，短編小説集はwordpressでも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
