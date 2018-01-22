@@ -1,0 +1,54 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: GitHubに投稿した小説をGitBookに変換して読む
+---
+#+END_HTML
+
+* 手順 
+** GitHubアカウントとGitBookを連携する
+
+   GitBook ([[https://gitbook.com/]]) にGitHubアカウントでログインします。https://www.gitbook.com/new のメニューをスクロールするとGitHubの欄があるので選択します (参考: [[http://www.shigemk2.com/entry/github_gitbook_]] )。
+
+   #+ATTR_HTML: alt="new book" width="300px"
+   [[file:01.png][new book]]
+
+   <br>
+   「GitBookアプリをインストールしてこい」と言われるので案内に従いインストールします。この際，全てのリポジトリを同期するか聞かれますが，作品以外のリポジトリも持っている人は拒否していいと思います。
+
+** GitHubアカウントでGitBookと同期するリポジトリを選択
+
+   GitBookアプリをインストールし，https://github.com/settings/ のメニューからApplicationsを選ぶとGitBookの項目が追加されているので，Configureを選びます。
+
+   #+ATTR_HTML: alt="gitbook installed" width="300px"
+   [[file:02.png][gitbook installed]]
+
+   <br>
+   "Repository Access" の項目があるので，作品のリポジトリを入力しましょう。
+
+   #+ATTR_HTML: alt="repository selected" width="300px"
+   [[file:03.png][repository selected]]
+
+** GitHubのリポジトリにsummary.mdを作成
+
+   - GitHubリポジトリにsummary.mdというファイルを作成すると，GitBookで目次を表示してくれます。
+   - summary.mdは https://gomachan46.gitbooks.io/how-to-use-gitbook/content/gitbook-cli/rule.html を参考に作成しましょう。
+   - 目次のルールは次のようになります。
+	#+BEGIN_SRC 
+	- [タイトル](ファイルの場所)
+	#+END_SRC
+
+** GitBookでbookを作成
+
+   https://www.gitbook.com/new で改めてGitHubを選択し，リポジトリ名とタイトル，紹介文を入力しましょう。タイトルは英字にします。
+
+   #+ATTR_HTML: alt="build book" width="300px"
+   [[file:04.png][build book]]
+   
+** 完了
+
+   完成したページではフォントや文字サイズなどを変更して読むことができるので便利です。
+
+   #+ATTR_HTML: alt="preview" width="300px"
+   [[file:05.png][preview]]
