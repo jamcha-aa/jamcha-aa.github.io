@@ -32,7 +32,7 @@ title: GitHubに投稿した小説をGitBookに変換して読む
 
 ** GitHubのリポジトリにsummary.mdを作成
 
-   - GitHubリポジトリにsummary.mdというファイルを作成すると，GitBookで目次を表示してくれます。
+   - GitHubのリポジトリで，新たにsummary.mdというファイルを作成すると，GitBookで目次を表示してくれます。
    - summary.mdは https://gomachan46.gitbooks.io/how-to-use-gitbook/content/gitbook-cli/rule.html を参考に作成しましょう。
    - 目次のルールは次のようになります。
 	#+BEGIN_SRC 
