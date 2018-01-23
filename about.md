@@ -20,7 +20,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
     + SCP Foundation風の自作オブジェクト集。
 -   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports)
     + 謎の生態をもつモンスターと調査隊の物語。連載中。
-    + 随時ストーリーの修正を行っています。
+    + 思いつきでストーリーは大幅に変わります。
 
 #### GitBook形式でないもの
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
