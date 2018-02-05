@@ -18,7 +18,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 -   [短編小説集](https://jamcha-aa.gitbooks.io/shortshort/content/)
 -   [SCP風オブジェクト集](https://jamcha-aa.gitbooks.io/scp/content/)
     + SCP Foundation風の自作オブジェクト集。
--   [オブリビオン・リポート](https://github.com/jamcha-aa/OblivionReports)
+-   [オブリビオン・リポート](https://jamcha-aa.gitbooks.io/oblivionreports/content/)
     + 謎の生態をもつモンスターと調査隊の物語。連載中。
 
 #### GitBook形式でないもの
