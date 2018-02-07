@@ -29,7 +29,7 @@ title: GNU Octaveでホワイトノイズを作成して聴く
      w1=rand(11050*100,2)*.5-1;
      w2=rand(11050*100,2)*.5-1;
      w3=(w1+w2)/2;
-     audiowrite('WhiteNoise.wav',white,2205);
+     audiowrite('WhiteNoise.wav',w3,2205);
    #+END_SRC
 
 ** mpvでループ再生する場合
