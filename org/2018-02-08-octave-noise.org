@@ -21,7 +21,7 @@ title: GNU Octaveでホワイトノイズを作成して聴く
      audiowrite('WhiteNoise.wav',white,48000);
    #+END_SRC
 
-   1行目の100が配列の大きさ，2行目の48000が周波数です ([[https://bagustris.wordpress.com/2011/10/18/generating-white-noise-sound-on-octave-matlab-2/][参考]])。octaveを起動した場所にWhiteNoise.wavというファイルが出力されるので好きなソフトでエンコードするなり聴くなりしてください。なお1行目の2を1にするとモノラル音声になります。
+   この例の場合，1行目の100が再生時間，2行目の48000が周波数になります ([[https://bagustris.wordpress.com/2011/10/18/generating-white-noise-sound-on-octave-matlab-2/][参考]])。octaveを起動した場所にWhiteNoise.wavというファイルが出力されるので好きなソフトでエンコードするなり聴くなりしてください。なお1行目の2を1にするとモノラル音声になります。
 
    私は低い音を聴きたかったため次のような音声を作成しました。
 
@@ -47,4 +47,4 @@ title: GNU Octaveでホワイトノイズを作成して聴く
    speedの値でピッチを変更できます。
 
 ** あとがき
-   スピーカーから流せば，ヘッドホンを使用しなくても周囲の雑音を相殺できるのでおすすめです。またoctaveからportaudioで直接再生することもできますが，手間がかかるので今回は見送りました。
+   スピーカーから流せば，ヘッドホンを使用しなくても周囲の雑音を相殺できるのでおすすめです。portaudioを導入すればoctaveから直接再生することもできます。
