@@ -25,7 +25,7 @@ title: GitHubに投稿した小説をGitBookに変換して読む
    [[file:02.png]]
 
    <br>
-   "Repository Access" の項目があるので，作品のリポジトリを入力しましょう。
+   "Repository Access" の項目があるので，作品のリポジトリ名を入力しましょう。
 
    #+ATTR_HTML: alt="repository selected" width="300px"
    [[file:03.png]]
@@ -41,7 +41,7 @@ title: GitHubに投稿した小説をGitBookに変換して読む
 
 ** GitBookでbookを作成
 
-   https://www.gitbook.com/new で改めてGitHubを選択し，リポジトリ名とタイトル，紹介文を入力しましょう。タイトルは英字にします。
+   https://www.gitbook.com/new で改めてGitHubを選択し，Title欄にリポジトリ名を入力します。Description (紹介文) は任意なので書かなくてもいいです。
 
    #+ATTR_HTML: alt="build book" width="300px"
    [[file:04.png]]
