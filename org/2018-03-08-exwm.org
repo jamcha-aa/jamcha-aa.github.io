@@ -21,6 +21,10 @@ title: 「EXWM」でEmacsをウインドウマネージャとして使う
    M-x p-ins exwm
    #+END_SRC
 
+** xinitrcのコピー
+
+   パッケージのインストールが終わると，elpa/exwmの中にxinitrcがあるので，それをホームフォルダにコピーして名前を.xinitrcに変更します。既に.xinitrcを作っている方は事前に必ずバックアップをしておいてください。なおremacsを使っている方はexwmのxinitrc最終行のemacsをremacsに書き換えておきます。
+
 ** init.elへの追加
 
    #+BEGIN_SRC 
@@ -31,7 +35,7 @@ title: 「EXWM」でEmacsをウインドウマネージャとして使う
 
 ** ログインメニューへの登録
 
-   /usr/share/xsessionsにemacs.desktopというファイルを作成し，以下の内容で保存してください (remacsを使っている場合はExecの部分がremacsになります)。
+   /usr/share/xsessionsにemacs.desktopというファイルを作成し，以下の内容で保存してください (remacsを使っている場合はExecの部分がremacsになります)。保存し終えたら再起動します。
 
    #+BEGIN_SRC 
    [Desktop Entry]
