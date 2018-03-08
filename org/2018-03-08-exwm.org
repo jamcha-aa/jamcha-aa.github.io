@@ -8,7 +8,7 @@ title: 「EXWM」でEmacsをウインドウマネージャとして使う
 
 * はじめに
 
-  EXWM (https://github.com/ch11ng/exwm) はタイトルのとおり，Emacsをタイル型ウインドウマネージャにするものです。どのような見た目になるかは公式のスクリーンショットがわかりやすいです (https://github.com/ch11ng/exwm/wiki/Screenshots)。
+  EXWM (https://github.com/ch11ng/exwm) はタイトルのとおり，Emacsをタイル型ウインドウマネージャにするものです。[[https://github.com/Wilfred/remacs][Remacs]]でも動きます。どのような見た目になるかは公式のスクリーンショットがわかりやすいです (https://github.com/ch11ng/exwm/wiki/Screenshots)。
 
   EXWMの導入方法や基本的な使い方はこちらを参考にしました (https://medium.com/@h.taiju/emacs-as-window-manager-68ddcec3ba97)。
 
@@ -63,8 +63,4 @@ title: 「EXWM」でEmacsをウインドウマネージャとして使う
    #+ATTR_HTML: alt="keyboard shortcut" width="300px"
    ![[file:01.png][keyboard shortcut]]
 
-   これで英字と日本語の切り替えをCtrl+Spaceで行うことができます。
-
-** おまけ
-
-   EXWMはremacsでも動作します。
+   これで英字とカナの切り替えをCtrl+Spaceで行うことができます。
