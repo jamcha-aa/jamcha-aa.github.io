@@ -23,7 +23,7 @@ title: 「EXWM」でEmacsをウインドウマネージャとして使う
 
 ** xinitrcのコピー
 
-   パッケージのインストールが終わると，elpa/exwmの中にxinitrcがあるので，それをホームフォルダにコピーして名前を.xinitrcに変更します。既に.xinitrcを作っている方は事前に必ずバックアップをしておいてください。なおremacsを使っている方はexwmのxinitrc最終行のemacsをremacsに書き換えておきます。
+   パッケージのインストールが終わると，elpa/exwmの中にxinitrcがあるので，それをホームフォルダにコピーして名前を.xinitrcに変更して実行権限を与えます (chmod +x 等)。既に.xinitrcを作っている方は事前に必ずバックアップをしておいてください。なおremacsを使っている方はexwmのxinitrc最終行のemacsをremacsに書き換えておきます。
 
 ** init.elへの追加
 
