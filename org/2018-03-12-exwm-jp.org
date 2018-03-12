@@ -51,7 +51,7 @@ title: EXWMで日本語を入力する
   #+ATTR_HTML: alt="keyboard shortcut" width="300px"
   ![[file:01.png][keyboard shortcut]]
 
-  これで英字とカナの切り替えをCtrl+Spaceで行うことができます。ただし，URLや検索エリアで日本語が使えないなど不便な点もあります。
+  これで英字とカナの切り替えをCtrl+Spaceで行うことができます。ただし利用できるのはtextareaのみで，URLや検索エリアでは使えないなど不便な点もあります。
 
 * あとがき
 
