@@ -1,0 +1,58 @@
+#+BEGIN_HTML
+---
+layout: post
+title: EXWMで日本語を入力する
+---
+#+END_HTML
+
+* はじめに
+
+  この記事は [[https://jamcha-aa.github.io/2018/03/08/exwm.html][「EXWM」でEmacsをウインドウマネージャとして使う]] の続きです。EXWMでもEmacsを介さない文字入力をする機会があります (Webブラウザを使うときなど)。その際に必要な設定について紹介します。
+
+* uim-mozcを利用
+
+** Debian系の場合
+
+   注) Debian自体はデフォルトでuimがインストールされているため以下の設定は必要ありません。
+
+   #+BEGIN_SRC 
+   $ sudo apt install uim-mozc
+   $ uim-pref-gtk3
+   #+END_SRC
+
+   『全体設定』で『標準の入力方式を指定』にチェック → 標準の入力方式にMozcを指定 (Anthyでも多分動くと思います)
+   
+   #+ATTR_HTML: alt="keyboard shortcut" width="300px"
+   ![[file:02.png][set mozc]]
+
+   .xinitrcと.xprofileに以下を追記して再ログイン
+
+   #+BEGIN_SRC 
+   export GTK_IM_MODULE=uim
+   export QT_IM_MODULE=uim
+   export XMODIFIERS=@im=uim
+   #+END_SRC
+   
+** Arch系の場合
+
+   #+BEGIN_SRC 
+   $ yaourt uim-mozc
+   $ uim-pref-gtk3
+   #+END_SRC
+
+   あとはDebian系の場合と同じように設定してください。
+
+* Chrome系ブラウザ限定: Google Input Toolを利用
+
+  たまにしかEXWMを使わないとか，EXWMでブラウザを使いたいがuimをインストールするのが面倒，といった場合は，Chrome用のアドオンであるGoogle Input Toolを使います (https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab?hl=ja)。
+
+  Google Input Toolをインストールしたら，まず拡張機能の設定で「選択した入力ツール」から手書き機能を外します。次にキーボードショートカットの設定で「次の入力ツールを選択」のショートカットをCtrl+Space等にし，他を空欄にします。
+
+  #+ATTR_HTML: alt="keyboard shortcut" width="300px"
+  ![[file:01.png][keyboard shortcut]]
+
+  これで英字とカナの切り替えをCtrl+Spaceで行うことができます。ただし，URLや検索エリアで日本語が使えないなど不便な点もあります。
+
+* あとがき
+
+  Fcitxではやり方がわかりませんでした。[[https://github.com/ch11ng/exim/][exim]] はmozcで漢字変換ができず (helperを呼ぶように書き換える必要がありそう)，[[https://github.com/zachcurry/emacs-anywhere][emacs-anywhere]] はフロートウインドウを出そうとして拒否されるのでEXWM用に書き換えないと動かないと思います。
