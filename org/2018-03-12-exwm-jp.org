@@ -55,4 +55,4 @@ title: EXWMで日本語を入力する
 
 * あとがき
 
-  Fcitxではやり方がわかりませんでした。[[https://github.com/ch11ng/exim/][exim]] はmozcで漢字変換ができず (helperを呼ぶように書き換える必要がありそう)，[[https://github.com/zachcurry/emacs-anywhere][emacs-anywhere]] はフロートウインドウを出そうとして拒否されるのでEXWM用に書き換えないと動かないと思います。
+  Fcitxではやり方がわかりませんでした (EXWMだとconfigtoolが空っぽになってしまう)。[[https://github.com/ch11ng/exim/][exim]] はmozcで漢字変換ができず (helperを呼ぶように書き換える必要がありそう)，[[https://github.com/zachcurry/emacs-anywhere][emacs-anywhere]] はフロートウインドウを出そうとして拒否されるのでEXWM用に書き換えないと動かないと思います。
