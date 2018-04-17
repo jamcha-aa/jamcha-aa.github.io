@@ -13,15 +13,16 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 ### 作品一覧
 
 #### GitBook形式
--   [Lore](https://jamcha-aa.gitbooks.io/lore/content/)
+-   [Lore](https://jamcha-aa.gitbook.io/lore/)
     + 2chオカ板ロア風の4行小説集。
--   [短編小説集](https://jamcha-aa.gitbooks.io/shortshort/content/)
--   [SCP風オブジェクト集](https://jamcha-aa.gitbooks.io/scp/content/)
+-   [短編小説集](https://jamcha-aa.gitbook.io/short/)
+-   [SCP風オブジェクト集](https://jamcha-aa.gitbook.io/scp/)
     + SCP Foundation風の自作オブジェクト集。
--   [オブリビオン・リポート](https://jamcha-aa.gitbooks.io/oblivionreports/content/)
+-   [オブリビオン・リポート](https://jamcha-aa.gitbook.io/oblivion-reports/)
     + 謎の生態をもつモンスターと調査隊の物語。 (完結)
--   [EeePCとEmacsと○○と](https://jamcha-aa.gitbooks.io/eeepc/content/)
+-   [EeePCとEmacsと○○と](https://jamcha-aa.gitbook.io/eeepc/)
     + 10年前のノートPCを現役で使おうという試み。 (全6話)
+-   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### GitBook形式でないもの
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
