@@ -18,7 +18,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 -   [短編小説集](https://jamcha-aa.gitbook.io/short/)
 -   [SCP風オブジェクト集](https://jamcha-aa.gitbook.io/scp/)
     + SCP Foundation風の自作オブジェクト集。
--   [オブリビオン・リポート](https://jamcha-aa.gitbook.io/oblivion-reports/)
+-   [オブリビオン・リポート](https://jamcha-aa.gitbooks.io/oblivionreports/content/)
     + 謎の生態をもつモンスターと調査隊の物語。 (完結)
 -   [EeePCとEmacsと○○と](https://jamcha-aa.gitbook.io/eeepc/)
     + 10年前のノートPCを現役で使おうという試み。 (全6話)
