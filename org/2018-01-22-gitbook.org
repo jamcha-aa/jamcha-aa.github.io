@@ -48,7 +48,5 @@ title: GitHubに投稿した小説をGitBookに変換して読む
    
 ** 完了
 
-   完成したページではフォントや文字サイズなどを変更して読むことができるので便利です。
-
    #+ATTR_HTML: alt="preview" width="300px"
    [[file:05.png]]
