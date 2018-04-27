@@ -9,6 +9,8 @@ title: EXWMで日本語を入力する
 
   この記事は [[https://jamcha-aa.github.io/2018/03/08/exwm.html][「EXWM」でEmacsをウインドウマネージャとして使う]] の続きです。EXWMでもEmacsを介さない文字入力をする機会があります (Webブラウザを使うときなど)。その際に必要な設定について紹介します。
 
+  (追記) ibus-mozc用の記事を新たに作成しました。[[https://jamcha-aa.github.io/2018/04/27/exwm-ibus.html][→ EXWMで日本語を入力する (ibus-mozcの場合)]]
+
 * uim-mozcを利用
 
 ** Debian系の場合
