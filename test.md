@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Access Denied."
+title: "Page not found"
 permalink: /test.html
-hide: true
+hide: false
 ---
 Sorry, the requested page wasn't found on the server.
