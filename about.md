@@ -12,7 +12,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 
 ### 作品一覧
 
-#### GitBook形式
+#### GitBook
 -   [Lore](https://jamcha-aa.gitbook.io/lore/)
     + 2chオカ板ロア風の4行小説集。
 -   [短編小説集](https://jamcha-aa.gitbook.io/short/)
@@ -24,7 +24,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
     + 10年前のノートPCを現役で使おうという試み。 (全6話)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
-#### GitBook形式でないもの
+#### GitBookでないもの
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
 -   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades)
     + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
