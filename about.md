@@ -18,10 +18,10 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 -   [短編小説集](https://jamcha-aa.gitbook.io/short/)
 -   [SCP風オブジェクト集](https://jamcha-aa.gitbook.io/scp/)
     + SCP Foundation風のオリジナルオブジェクト集。
--   [ホーリー・レフトオーバーズ](https://jamcha-aa.gitbook.io/holy-leftovers/)
-    + 各地を駆ける配達人の物語。 (連載中)
 -   [オブリビオン・リポート](https://jamcha-aa.gitbooks.io/oblivionreports/content/)
     + 謎の生態をもつモンスターと調査隊の物語。 (完結)
+-   [ホーリー・レフトオーバーズ](https://jamcha-aa.gitbook.io/holy-leftovers/)
+    + 各地を駆ける配達人の物語。 (連載中)
 -   [EeePCとEmacsと○○と](https://jamcha-aa.gitbook.io/eeepc/)
     + 10年前のノートPCを現役で使おうという試み。 (全6話)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
