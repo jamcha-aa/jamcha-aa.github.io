@@ -59,7 +59,7 @@ title: 「EXWM」でEmacsをウインドウマネージャとして使う
    - lineモードとcharモード
      + exwmで起動したソフトウェアには，emacsの操作を受けつけるlineモードと，ソフトウェア特有のキー操作が使えるcharモードという2つのモードがある
      + charモードでないとControl-cなどソフトウェア特有のキーボードショートカットが使えない (例: ターミナルを起動してC-cで処理を中止させるときなど)
-     + charモードへはControl-c Control-kで切り替え，Super-wでlineモードへ戻る
+     + charモードへはControl-c Control-kで切り替え，Super-rでlineモードへ戻る
 
    ワークスペースを増やす，マルチディスプレイの方法など，詳細な設定は公式のwikiを見てください。
 
