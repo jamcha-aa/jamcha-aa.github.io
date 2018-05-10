@@ -27,7 +27,7 @@ title: Ubuntu 18.04でqutebrowserを使う
 <tbody>
 <tr>
 <td class="left">hjkl</td>
-<td class="left">　移動</td>
+<td class="left">移動</td>
 </tr>
 
 
@@ -80,6 +80,12 @@ title: Ubuntu 18.04でqutebrowserを使う
 
 
 <tr>
+<td class="left">\\/</td>
+<td class="left">検索</td>
+</tr>
+
+
+<tr>
 <td class="left">&#xa0;</td>
 <td class="left">ハイライトされた状態でEnterを押すと確定</td>
 </tr>
@@ -93,7 +99,7 @@ title: Ubuntu 18.04でqutebrowserを使う
 
 <tr>
 <td class="left">v</td>
-<td class="left">　ビジュアルモード (キャレットモード)</td>
+<td class="left">ビジュアルモード (キャレットモード)</td>
 </tr>
 
 
