@@ -1,0 +1,39 @@
+---
+layout: post
+title: Ubuntu 18.04でqutebrowserを使う
+---
+
+-   インストール方法: sudo apt install qutebrowser
+    -   チートシートはこちら ![img](//qutebrowser.org/img/cheatsheet-big.png)
+
+-   qutebrowserで画面内文字列をコピーするにはqutebrowser 1.3.0をインストールしましょう。必要なパッケージは18.10から拝借します (2018.05.11現在)。
+    -   <https://packages.ubuntu.com/cosmic/qutebrowser>
+    -   <https://packages.ubuntu.com/cosmic/qutebrowser-qtwebengine>
+    -   <https://packages.ubuntu.com/cosmic/qutebrowser-qtwebkit>
+    -   <https://packages.ubuntu.com/cosmic/python3-pyqt5>
+
+-   よく使う操作
+    -   hjkl　移動
+    -   gg 最上段に戻る
+    -   o　URLを開く
+    -   f 現在のタブでリンクを開く
+        -   入力フォームを選択するときにも使える
+    -   F (大文字) 新しいタブでリンクを開く
+    -   d　タブを閉じる
+    -   J (大文字) 次のタブ
+    -   H (大文字) 戻る
+    -   / 検索
+        -   ハイライトされた状態でEnterを押すと確定
+        -   nで次候補へ移動
+    -   v　ビジュアルモード (キャレットモード)
+        -   再度vで文字列の選択開始
+        -   yでコピー
+        -   コピーした文字列はppで検索
+    -   :q で終了
+
+-   その他の設定 (検索エンジンの変更など)
+    -   :set で設定画面を開く
+
+-   あとがき
+    
+    exwm環境でメインブラウザとして使用しています。特別なカスタマイズをしなくても軽快な操作ができるので，「[思考のスピードでネットサーフィンが出来る](https://qiita.com/geotrader/items/47fd0a7e5783e5a0b599)」という評価は伊達じゃないと思います。
