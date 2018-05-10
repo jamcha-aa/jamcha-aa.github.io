@@ -80,7 +80,7 @@ title: Ubuntu 18.04でqutebrowserを使う
 
 
 <tr>
-<td class="left">\\/</td>
+<td class="left">/</td>
 <td class="left">検索</td>
 </tr>
 
