@@ -8,14 +8,14 @@ title: Ubuntu 18.04でqutebrowserを使う
 
 * インストール
 
-- sudo apt install qutebrowser
-  + チートシートはこちら [[https://qutebrowser.org/img/cheatsheet-big.png]]
+  - sudo apt install qutebrowser
+    + チートシートはこちら [[https://qutebrowser.org/img/cheatsheet-big.png]]
 
-- qutebrowserで画面内文字列をコピーするにはqutebrowser 1.3.0をインストールしましょう。必要なパッケージは18.10から拝借します (2018.05.11現在)。
-  + https://packages.ubuntu.com/cosmic/qutebrowser
-  + https://packages.ubuntu.com/cosmic/qutebrowser-qtwebengine
-  + https://packages.ubuntu.com/cosmic/qutebrowser-qtwebkit
-  + https://packages.ubuntu.com/cosmic/python3-pyqt5
+  - qutebrowserで画面内文字列をコピーするにはqutebrowser 1.3.0をインストールしましょう。必要なパッケージは18.10から拝借します (2018.05.11現在)。
+    + https://packages.ubuntu.com/cosmic/qutebrowser
+    + https://packages.ubuntu.com/cosmic/qutebrowser-qtwebengine
+    + https://packages.ubuntu.com/cosmic/qutebrowser-qtwebkit
+    + https://packages.ubuntu.com/cosmic/python3-pyqt5
 
 * よく使う操作
 
@@ -41,8 +41,8 @@ title: Ubuntu 18.04でqutebrowserを使う
   |------------+-----------------------------------------|
 
 
-- その他の設定 (検索エンジンの変更など)
-  + :set で設定画面を開く
+  - その他 (検索エンジンの変更など)
+    + :set で設定画面を開く
 
 * あとがき
   

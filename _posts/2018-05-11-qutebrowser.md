@@ -80,7 +80,7 @@ title: Ubuntu 18.04でqutebrowserを使う
 
 
 <tr>
-<td class="left">/</td>
+<td class="left">//</td>
 <td class="left">検索</td>
 </tr>
 
@@ -128,7 +128,7 @@ title: Ubuntu 18.04でqutebrowserを使う
 </tbody>
 </table>
 
--   その他の設定 (検索エンジンの変更など)
+-   その他 (検索エンジンの変更など)
     -   :set で設定画面を開く
 
 #### あとがき
