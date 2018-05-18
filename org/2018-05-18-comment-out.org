@@ -8,6 +8,10 @@ title: 小説などの文章からコメントを削除して出力する
 
 * 例
 
+  今回はこのファイル (sample.txt) からコメント行を消します。
+
+  *sample.txt*
+
   #+BEGIN_SRC 
   事件の流れ〜
 
@@ -25,11 +29,11 @@ title: 小説などの文章からコメントを削除して出力する
   おわり
   #+END_SRC
 
-  今回はこのファイル (sample.txt) からコメント行を消します。
-
 * ファイルのある場所でターミナルを起動
 
-  やり方がわからない場合は[[https://book.mynavi.jp/macfan/detail_summary/id%3D41833][こちら]]を参照。
+  ターミナルの開き方がわからない場合は[[https://book.mynavi.jp/macfan/detail_summary/id%3D41833][こちら]]を参照。
+
+  *入力するコマンド*
 
   #+BEGIN_SRC 
   $ sed -e "/\/\//d" sample.txt > sample-r.txt
@@ -37,7 +41,7 @@ title: 小説などの文章からコメントを削除して出力する
 
 * 結果
 
-  sample-r.txtの中身
+  *sample-r.txtの中身*
 
   #+BEGIN_SRC 
   事件の流れ〜
@@ -51,8 +55,6 @@ title: 小説などの文章からコメントを削除して出力する
 
   おわり
   #+END_SRC
-
-  コメント行を消せました。
 
 * あとがき
 
