@@ -36,10 +36,10 @@ title: GitHubに投稿した小説をGitBookに変換して読む
    #+ATTR_HTML: alt="repository selected" width="300px"
    [[file:03.png]]
 
-** GitHubのリポジトリにsummary.mdを作成
+** GitHubのリポジトリにSUMMARY.mdを作成
 
-   - GitHubのリポジトリで，新たにsummary.mdというファイルを作成すると，GitBookで目次を表示してくれます。
-   - summary.mdは https://gomachan46.gitbooks.io/how-to-use-gitbook/content/gitbook-cli/rule.html を参考に作成しましょう。
+   - GitHubのリポジトリで，新たにSUMMARY.md (SUMMARYは全て大文字) というファイルを作成すると，GitBookで目次を表示してくれます。
+   - SUMMARY.mdは https://gomachan46.gitbooks.io/how-to-use-gitbook/content/gitbook-cli/rule.html を参考に作成しましょう。
    - 基本的なルールは次のとおり。
 	#+BEGIN_SRC 
 	- [タイトル](ファイルの場所)
