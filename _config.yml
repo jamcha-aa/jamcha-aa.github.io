@@ -72,4 +72,4 @@ sass:
   style: :compressed
 gems: [jekyll-paginate]
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
