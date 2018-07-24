@@ -6,6 +6,8 @@ title: org-modeで書いた小説をmagitでGitHubに投稿する
 ---
 #+END_HTML
 
+(追記 2018/07/25) 現在はGitBook形式にしています → [[https://jamcha-aa.github.io/Gitbook-Guide/][GitBookでGitHubと遊ぶ]]
+
 * このページで紹介すること
 
   emacsのorg-modeで書いた小説などの文章を，GitHubに投稿して読めるようにする方法を紹介します。GitHubにはブラウザでファイルをアップロードすればpushできるという便利な機能があります。ただし今回は執筆→投稿まで全てemacsで行いたいので，バージョン管理はmagitで行います。
