@@ -7,9 +7,6 @@ feature-img: "img/sample_feature_img_2.png"
 
 jamcha: オリジナルの小説をGitHubで書いてます。
 
-
--   [ブログ記事一覧](https://jamcha-aa.github.io/archive.html) 
-
 ### 作品一覧
 
 #### GitBook
@@ -34,9 +31,11 @@ jamcha: オリジナルの小説をGitHubで書いてます。
     + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
 -   Loreの一部，短編小説集はwordpressでも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
-### 自作フォント
+#### その他
+
+-   [ブログ記事一覧](https://jamcha-aa.github.io/archive.html) 
 -   [KonG (混んG) フォント](https://github.com/jamcha-aa/KonG)
-    + 源ノ角ゴシック Code JPと源ノ明朝を合成したアンチック書体。
+    + 源ノ角ゴシック Code JPと源ノ明朝を合成した自作フォント。
 
 ### Contact
 
