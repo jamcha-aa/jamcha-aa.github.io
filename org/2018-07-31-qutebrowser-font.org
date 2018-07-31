@@ -1,0 +1,44 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: qutebrowserのWebフォントを変更する
+---
+#+END_HTML
+
+* 手順
+
+1. stylesheet.cssを作成します。今回はNoto Sansを指定します。
+
+   #+BEGIN_SRC 
+   /* :set content.user_stylesheets '/home/user/stylesheet.css'  */
+   :not(pre):not(code) {
+       font-family: Noto Sans CJK JP !important;
+   }
+   #+END_SRC
+
+2. qutebrowserでsetting画面を開き (~:set~)，stylesheet.cssのある場所を指定します。
+
+   #+ATTR_HTML: alt="diff sample" width="300px"
+   [[file:02.png]]
+
+3. qutebrowserを再起動します。
+
+* 設定前
+
+   #+ATTR_HTML: alt="diff sample" width="300px"
+   [[file:01.png]]
+
+* 設定後
+
+   #+ATTR_HTML: alt="diff sample" width="300px"
+   [[file:03.png]]
+
+* あとがき
+
+  Manjaroなどでインストール後に日本語環境を導入した場合，qutebrowserを使うと，大抵のWebページでmonospaceフォントが表示されます (ManjaroだとDroid Sans ?)。見栄えが悪いので直しましょう。
+
+  *参考*
+
+  https://www.reddit.com/r/qutebrowser/comments/8hezsb/fontswebfamily_options_dont_work_in_every_site/
+
