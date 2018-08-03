@@ -10,7 +10,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 ### 作品一覧
 
 #### GitBook
--   [Lore](https://jamcha-aa.gitbook.io/lore/)
+-   [Lore](https://jamcha-aa.github.io/lore/)
     + 2chオカ板ロア風の4行小説集。
 -   [短編小説集](https://jamcha-aa.gitbook.io/short/)
 -   [SCP風オブジェクト集](https://jamcha-aa.gitbook.io/scp/)
