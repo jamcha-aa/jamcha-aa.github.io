@@ -19,19 +19,19 @@ title: qutebrowserのWebフォントを変更する
 
 ** qutebrowserでsetting画面を開き (~:set~)，stylesheet.cssのある場所を指定します。
 
-   #+ATTR_HTML: alt="diff sample" width="300px"
+   #+ATTR_HTML: alt="settings screen" width="300px"
    [[file:02.png]]
 
 ** qutebrowserを再起動します。
 
 * 設定前
 
-   #+ATTR_HTML: alt="diff sample" width="300px"
+   #+ATTR_HTML: alt="before" width="300px"
    [[file:01.png]]
 
 * 設定後
 
-   #+ATTR_HTML: alt="diff sample" width="300px"
+   #+ATTR_HTML: alt="after" width="300px"
    [[file:03.png]]
 
 * あとがき
