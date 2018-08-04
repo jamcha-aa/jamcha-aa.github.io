@@ -1,0 +1,30 @@
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+layout: post
+title: zoom-frmでEmacsのバッファごとにフォントサイズを変える
+---
+#+END_HTML
+
+* 手順
+** 必要なファイル
+   - 以下の3つのファイルをパスの通った場所に置いてください。
+   - [[https://www.emacswiki.org/emacs/zoom-frm.el][zoom-frm.el]]
+   - [[https://www.emacswiki.org/emacs/frame-cmds.el][frame-cmds.el]]
+   - [[https://www.emacswiki.org/emacs/frame-fns.el][frame-fns.el]]
+
+** init.el
+
+   #+BEGIN_SRC 
+   (require 'zoom-frm)
+   #+END_SRC
+
+** 使い方
+   - 拡大: ~C-x C-+~
+   - 縮小: ~C-x C--~
+   - リセット: ~C-x C-0~
+
+** スクリーンショット
+
+   #+ATTR_HTML: alt="abehiroshi" width="300px"
+   [[file:01.png]]
