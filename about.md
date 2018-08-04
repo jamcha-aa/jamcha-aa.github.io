@@ -13,7 +13,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
 -   [Lore](https://jamcha-aa.github.io/Lore/)
     + 2chオカ板ロア風の4行小説集。
 -   [短編小説集](https://jamcha-aa.github.io/ShortShort/)
--   [SCP風オブジェクト集](https://jamcha-aa.gitbook.io/scp/)
+-   [SCP風オブジェクト集](https://jamcha-aa.github.io/SCP/)
     + SCP Foundation風のオリジナルオブジェクト集。
 -   [オブリビオン・リポート](https://jamcha-aa.github.io/OblivionReports/)
     + 謎の生態をもつモンスターと調査隊の物語。 (完結)
