@@ -10,7 +10,7 @@ title: Manjaroのデフォルトフォントを変更する
     $ mkdir ~/.config/fontconfig
     $ nano ~/.config/fontconfig/fonts.conf
 
-fonts.confの中身は [ArchWikiの「フォント設定/サンプル#日本語フォント」](https://wiki.archlinux.jp/index.php/%25E3%2583%2595%25E3%2582%25A9%25E3%2583%25B3%25E3%2583%2588%25E8%25A8%25AD%25E5%25AE%259A/%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AB#.E6.97.A5.E6.9C.AC.E8.AA.9E.E3.83.95.E3.82.A9.E3.83.B3.E3.83.88) をそのままコピペします。
+fonts.confの中身は [ArchWikiの「フォント設定/サンプル#日本語フォント」](https://wiki.archlinux.jp/index.php/%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E8%A8%AD%E5%AE%9A/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB#.E6.97.A5.E6.9C.AC.E8.AA.9E.E3.83.95.E3.82.A9.E3.83.B3.E3.83.88) をそのままコピペします。
 
 なお以下のソースの著作権はArch Linux JP Projectにあります。
 
