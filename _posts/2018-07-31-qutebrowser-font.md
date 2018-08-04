@@ -5,26 +5,29 @@ title: qutebrowserのWebフォントを変更する
 
 ### 手順
 
-1.  stylesheet.cssを作成します。今回はNoto Sansを指定します。
-    
-        /* :set content.user_stylesheets '/home/user/stylesheet.css'  */
-        :not(pre):not(code) {
-            font-family: Noto Sans CJK JP !important;
-        }
 
-2.  qutebrowserでsetting画面を開き (`:set`)，stylesheet.cssのある場所を指定します。
-    
-    ![img](02.png)
+#### stylesheet.cssを作成します。今回はNoto Sansを指定します。
 
-3.  qutebrowserを再起動します。
+    /* :set content.user_stylesheets '/home/user/stylesheet.css'  */
+    :not(pre):not(code) {
+        font-family: Noto Sans CJK JP !important;
+    }
 
 
-#### 設定前
+#### qutebrowserでsetting画面を開き (`:set`)，stylesheet.cssのある場所を指定します。
+
+![img](02.png)
+
+
+#### qutebrowserを再起動します。
+
+
+### 設定前
 
 ![img](01.png)
 
 
-#### 設定後
+### 設定後
 
 ![img](03.png)
 

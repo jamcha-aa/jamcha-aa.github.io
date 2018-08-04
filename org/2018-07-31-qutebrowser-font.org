@@ -8,7 +8,7 @@ title: qutebrowserのWebフォントを変更する
 
 * 手順
 
-1. stylesheet.cssを作成します。今回はNoto Sansを指定します。
+** stylesheet.cssを作成します。今回はNoto Sansを指定します。
 
    #+BEGIN_SRC 
    /* :set content.user_stylesheets '/home/user/stylesheet.css'  */
@@ -17,12 +17,12 @@ title: qutebrowserのWebフォントを変更する
    }
    #+END_SRC
 
-2. qutebrowserでsetting画面を開き (~:set~)，stylesheet.cssのある場所を指定します。
+** qutebrowserでsetting画面を開き (~:set~)，stylesheet.cssのある場所を指定します。
 
    #+ATTR_HTML: alt="diff sample" width="300px"
    [[file:02.png]]
 
-3. qutebrowserを再起動します。
+** qutebrowserを再起動します。
 
 * 設定前
 
