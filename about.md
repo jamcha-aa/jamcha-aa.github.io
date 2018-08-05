@@ -19,7 +19,7 @@ jamcha: オリジナルの小説をGitHubで書いてます。
     + 謎の生態をもつモンスターと調査隊の物語。 (完結)
 -   [ホーリー・レフトオーバーズ](https://jamcha-aa.github.io/holy-leftovers/)
     + 各地を駆ける配達人たちの物語。 (連載中)
--   [EeePCとEmacsと○○と](https://jamcha-aa.gitbook.io/eeepc/)
+-   [EeePCとEmacsと○○と](https://jamcha-aa.github.io/EeePC/)
     + 10年前のノートPCを現役で使おうという試み。 (全6話)
 -   [GitBookでGitHubと遊ぶ](https://jamcha-aa.github.io/Gitbook-Guide/)
     + GitHubでGitBookの文章を公開する試み。 (全4話)
