@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Manjaro Linuxにremacsをインストール
+tags: [Manjaro, Emacs]
 ---
 
 # 手順

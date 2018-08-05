@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 文章のどこが変更されたのかMagitで視覚化する
+tags: [Emacs, Magit]
 ---
 
 -   <http://www.clear-code.com/blog/2012/4/3.html> を参考に，init.elに以下の内容を追加します。

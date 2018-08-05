@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ubuntu 18.04でqutebrowserを使う
+tags: [qutebrowser, Ubuntu]
 ---
 
 #### インストール

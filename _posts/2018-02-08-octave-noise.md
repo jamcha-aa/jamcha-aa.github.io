@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GNU Octaveでホワイトノイズを作成して聴く
+tags: [Octave]
 ---
 
 # はじめに

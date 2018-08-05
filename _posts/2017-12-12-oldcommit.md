@@ -1,6 +1,7 @@
 ---
 layout: post
 title: magitで過去のコミットからブランチを作ってマージする
+tags: [Emacs, Magit]
 ---
 
 # はじめに

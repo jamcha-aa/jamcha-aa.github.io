@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gitbook.comで「一番上に戻るボタン」を表示する
+tags: [GitBook]
 ---
 
 # 注意

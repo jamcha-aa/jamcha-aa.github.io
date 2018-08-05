@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GitHubページにアーカイブページを作る
+tags: [GitHub]
 ---
 
 # 手続き

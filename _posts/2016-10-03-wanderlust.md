@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Windows環境のEmacsでWanderlustを使ってGmailを読む
+tags: [Windows, Emacs]
 ---
 
 # 手順

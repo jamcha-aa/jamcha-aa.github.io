@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Manjaroのデフォルトフォントを変更する
+tags: [Manjaro]
 ---
 
 ### 手順

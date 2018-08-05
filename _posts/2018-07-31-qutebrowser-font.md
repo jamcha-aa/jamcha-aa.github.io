@@ -1,6 +1,7 @@
 ---
 layout: post
 title: qutebrowserのWebフォントを変更する
+tags: [qutebrowser]
 ---
 
 ### 手順
