@@ -1,18 +1,15 @@
-<div class="HTML">
-&#x2014;
+---
 layout: post
 title: EXWMでマルチディスプレイ
-&#x2014;
-
-</div>
+---
 
 今回は解像度1366x768のノートPCと液晶モニタを接続してみます。[exwm WIki](https://github.com/ch11ng/exwm/wiki#randr-multi-screen) に書かれている方法で済んだ場合は以下の文章は読まなくていいです。
 
 
-# 手順
+## 手順
 
 
-## ターミナルでxrandrを実行
+### ターミナルでxrandrを実行
 
     $ xrandr
 
@@ -45,7 +42,7 @@ xrandrを実行するとこんな感じの画面が出ます。なお以下の�
 今回，HDMI接続しているモニタはPCの性能上フルHDまでしか認識されませんでした。
 
 
-## [exwm Wiki](https://github.com/ch11ng/exwm/wiki#randr-multi-screen) を参考にinit.elに設定を記述します。
+### [exwm Wiki](https://github.com/ch11ng/exwm/wiki#randr-multi-screen) を参考にinit.elに設定を記述します。
 
     (require 'exwm-randr)
     (setq exwm-randr-workspace-output-plist '(0 "VGA1"))
@@ -56,7 +53,7 @@ xrandrを実行するとこんな感じの画面が出ます。なお以下の�
     (exwm-randr-enable)
 
 
-## スクリーンショット
+#### スクリーンショット
 
 ![img](01.png)
 
