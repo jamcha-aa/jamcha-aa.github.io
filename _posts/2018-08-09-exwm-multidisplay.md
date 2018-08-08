@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EXWMでマルチディスプレイ
+tags: [Emacs, EXWM]
 ---
 
 今回は解像度1366x768のノートPCと液晶モニタを接続してみます。[exwm Wiki](https://github.com/ch11ng/exwm/wiki#randr-multi-screen) に書かれている方法で済んだ場合は以下の文章は読まなくていいです。
