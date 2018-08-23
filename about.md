@@ -27,7 +27,7 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + M-x help-with-tutorial を遊ぶ。 (全 24 話)
 -   [Spacemacs の ささやき](https://jamcha-aa.github.io/Spacemacs-Guide/)
     + Spacemacs を導入する試み。
---   [雑記](https://jamcha-aa.gitbook.io/column/)
+-   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### GitBook でないもの
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
