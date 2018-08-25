@@ -27,6 +27,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + M-x help-with-tutorial を遊ぶ。 (全 24 話)
 -   [Spacemacs の ささやき](https://jamcha-aa.github.io/Spacemacs-Guide/)
     + Spacemacs を導入する試み。 (全 5 話)
+-   [Docusaurus の逆襲](https://jamcha-aa.github.io/Docusaurus-Guide/)
+    + Docusaurus と GitHub で遊ぶ。
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### GitBook でないもの
