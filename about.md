@@ -28,7 +28,7 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [Spacemacs の ささやき](https://jamcha-aa.github.io/Spacemacs-Guide/)
     + Spacemacs を導入する試み。 (全 5 話)
 -   [Docusaurus の逆襲](https://jamcha-aa.github.io/Docusaurus-Guide/)
-    + Docusaurus と GitHub で遊ぶ。
+    + Docusaurus と GitHub で遊ぶ。 (全 9 話)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### GitBook でないもの
