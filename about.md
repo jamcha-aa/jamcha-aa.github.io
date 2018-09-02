@@ -49,4 +49,4 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 
 -   github: [<https://github.com/jamcha-aa>](https://github.com/jamcha-aa)
 -   twitter: [<https://twitter.com/jamcha_aa>](https://twitter.com/jamcha_aa)
--   mail: ![](https://services.nexodyne.com/email/icon/dmmokil%2b.lhw/owdx44y%3d/r01haww%3d/0/image.png)
+-   mail: ![](https://services.nexodyne.com/email/icon/DmmOkiL%2B.Lhw/Owdx44Y%3D/R01haWw%3D/0/image.png)
