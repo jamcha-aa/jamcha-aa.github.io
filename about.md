@@ -9,7 +9,6 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 
 ### 作品一覧
 
-#### GitBook
 -   [Lore](https://jamcha-aa.github.io/Lore/)
     + 2ch オカ板ロア風の 4 行小説集。
 -   [短編小説集](https://jamcha-aa.github.io/ShortShort/)
@@ -26,24 +25,24 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [Emacs のチュートリアルをプレイ。](https://jamcha-aa.github.io/Emacs-tutorial/)
     + M-x help-with-tutorial を遊ぶ。 (全 24 話)
 -   [Spacemacs の ささやき](https://jamcha-aa.github.io/Spacemacs-Guide/)
-    + Spacemacs を導入する試み。 (全 5 話)
+    + Spacemacs を導入する試み (全 5 話)。
 -   [Docusaurus の逆襲](https://jamcha-aa.github.io/Docusaurus-Guide/)
-    + Docusaurus と GitHub で遊ぶ。 (全 10 話)
+    + Docusaurus と GitHub で遊ぶ。(全 10 話)
 -   [Git x Magit 編集会議](https://jamcha-aa.github.io/magit-meeting/)
     + というより VuePress。
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
-#### GitBook でないもの
+#### .org 形式
 -   [黒龍の塔](https://github.com/jamcha-aa/TowerofThem)
 -   [Ebony Blades / 黒檀の刃](https://github.com/jamcha-aa/EbonyBlades)
     + 滅亡した国を舞台に繰り広げられるダークファンタジー小説。休止中。
--   Lore の一部，短編小説集は wordpress でも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
 #### その他
 
 -   [ブログ記事一覧](https://jamcha-aa.github.io/archive.html) 
 -   [KonG (混ん G) フォント](https://github.com/jamcha-aa/KonG)
     + 源ノ角ゴシック Code JP と源ノ明朝を合成した自作フォント。
+-   Lore の一部，短編小説集は wordpress でも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
 ### Contact
 
