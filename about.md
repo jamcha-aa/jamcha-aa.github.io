@@ -29,6 +29,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + Spacemacs を導入する試み。 (全 5 話)
 -   [Docusaurus の逆襲](https://jamcha-aa.github.io/Docusaurus-Guide/)
     + Docusaurus と GitHub で遊ぶ。 (全 10 話)
+-   [Git x Magit 企画会議](https://jamcha-aa.github.io/magit-meeting/)
+    + というより VuePress。
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### GitBook でないもの
@@ -47,4 +49,4 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 
 -   github: [<https://github.com/jamcha-aa>](https://github.com/jamcha-aa)
 -   twitter: [<https://twitter.com/jamcha_aa>](https://twitter.com/jamcha_aa)
--   mail: ![](https://services.nexodyne.com/email/icon/DmmOkiL%2B.Lhw/Owdx44Y%3D/R01haWw%3D/0/image.png)
+-   mail: ![](https://services.nexodyne.com/email/icon/dmmokil%2b.lhw/owdx44y%3d/r01haww%3d/0/image.png)
