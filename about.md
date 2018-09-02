@@ -29,7 +29,7 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [Docusaurus の逆襲](https://jamcha-aa.github.io/Docusaurus-Guide/)
     + Docusaurus と GitHub で遊ぶ。(全 10 話)
 -   [Git x Magit 編集会議](https://jamcha-aa.github.io/magit-meeting/)
-    + というより VuePress。
+    + というより VuePress。 (全 5 話)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
