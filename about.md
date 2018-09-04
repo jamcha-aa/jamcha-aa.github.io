@@ -17,7 +17,7 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [オブリビオン・リポート](https://jamcha-aa.github.io/OblivionReports/)
     + 謎の生態をもつモンスターと調査隊の物語。 (完結)
 -   [ホーリー・レフトオーバーズ](https://jamcha-aa.github.io/holy-leftovers/)
-    + 各地を駆ける配達人たちの物語。 (連載中)
+    + 各地を駆ける配達人たちの物語。 (git-magit 完結まで休止予定)
 -   [EeePC と Emacs と○○と](https://jamcha-aa.github.io/EeePC/)
     + 10 年前のノート PC を現役で使おうという試み。 (全 6 話)
 -   [GitBook で GitHub と遊ぶ](https://jamcha-aa.github.io/Gitbook-Guide/)
@@ -30,6 +30,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + Docusaurus と GitHub で遊ぶ。(全 10 話)
 -   [Git x Magit 編集会議](https://jamcha-aa.github.io/magit-meeting/)
     + というより VuePress。 (全 5 話)
+-   [事象改変魔法 Git x Magit (ギット・マ・ギット)](https://jamcha-aa.github.io/git-magit/)
+    + 世界を変える禁術。 (連載中)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
