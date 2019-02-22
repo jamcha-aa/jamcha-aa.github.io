@@ -32,6 +32,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + というより VuePress。 (全 5 話)
 -   [事象改変魔法 Git x Magit (ギット・マ・ギット)](https://jamcha-aa.github.io/git-magit/)
     + 世界を変える禁術。 (連載中)
+-   [Requiem: クリームパーレ](https://jamcha-aa.github.io/Requiem-novel/)
+    + スカイリムのようでスカイリムじゃない世界 "Requiem" の物語。 (連載中)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
