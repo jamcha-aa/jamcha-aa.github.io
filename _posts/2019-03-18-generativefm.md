@@ -11,7 +11,7 @@ title: 自動生成されたアンビエント音楽を無限に再生する『 
 ### Generative.fm とは
 
 -   [公式リポジトリ](https://github.com/generative-music/generative.fm)
--   [Generative.fm](https://generative.fm/) は，自動生成されたアンビエント音楽を無限に再生する Web サイトおよびソフトウェアです。インストールには Node.js と yarn (もしくは npm) が必要です。
+-   [Generative.fm](https://generative.fm/) は，自動生成されたアンビエント音楽を無限に再生する Web サイトおよびソフトウェアです。インストールには Node.js と yarn (もしくは npm) が必要です。なお 2019 年 3 月現在 node-sass が ARM 系 CPU をサポートしていないため，Raspberry Pi 等では動作しません。
 
 
 ### 手順 (公式準拠)
