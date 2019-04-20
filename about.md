@@ -36,6 +36,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + スカイリムのようでスカイリムじゃない世界 "Requiem" の物語。 (連載中)
 -   [エウロパの翻訳機](https://jamcha-aa.github.io/compatible-novels/)
     + 英語に適切に翻訳できる日本語の文体で書かれた小説。
+-   [終末のChromeOS](https://jamcha-aa.github.io/cloudready-VT/)
+    + ChromeOSをSSH端末にして遊ぶ。
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
