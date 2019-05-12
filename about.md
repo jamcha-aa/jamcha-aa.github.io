@@ -42,6 +42,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + 黒い画面を使うとしぬ呪いをかけられてしまったら (全 4 話)。
 -   [C202SAと最後の 2 年間](https://jamcha-aa.github.io/c202sa/)
     + かわいい相棒、Chromebook C202SA。
+-   [エディタをつくろう](https://jamcha-aa.github.io/making-editor/)
+    + 編集を始 (し) てね！
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
@@ -54,6 +56,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [ブログ記事一覧](https://jamcha-aa.github.io/archive.html) 
 -   [KonG (混ん G) フォント](https://github.com/jamcha-aa/KonG)
     + 源ノ角ゴシック Code JP と源ノ明朝を合成した自作フォント。
+-   [Annin (杏仁)](https://github.com/jamcha-aa/Annin)
+    + シンプルなMarkdownエディタ。
 -   Lore の一部，短編小説集は wordpress でも公開しています→ [https://jamcha.wordpress.com](https://jamcha.wordpress.com)
 
 ### Contact
