@@ -44,6 +44,8 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + かわいい相棒、Chromebook C202SA。
 -   [エディタをつくろう](https://jamcha-aa.github.io/making-editor/)
     + 編集を始 (し) てね！ (全 11 話)
+-   [置いていかないでHugo](https://jamcha-aa-hugo.netlify.com/)
+    + ウェブの森で迷子になった話。
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
