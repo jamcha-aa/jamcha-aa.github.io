@@ -45,7 +45,7 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [エディタをつくろう](https://jamcha-aa.github.io/making-editor/)
     + 編集を始 (し) てね！ (全 11 話)
 -   [置いていかないでHugo](https://jamcha-aa-hugo.netlify.com/)
-    + ウェブの森で迷子になった話。
+    + ウェブの森で迷子になった話 (全 6 話)。
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
