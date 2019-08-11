@@ -46,7 +46,7 @@ jamcha: オリジナルの小説を GitHub で書いてます。
     + 編集を始 (し) てね！ (全 11 話)
 -   [置いていかないでHugo](https://jamcha-aa-hugo.netlify.com/)
     + ウェブの森で迷子になった話 (全 6 話)。
--   [山本太郎の 8 年間と『れいわ』の 4 ヶ月](https://jamcha-aa-harmoniyangindah.netlify.com/)
+-   [平成 24 年の山本太郎と『れいわ新選組』の 1 ヶ月](https://jamcha-aa-harmoniyangindah.netlify.com/)
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
