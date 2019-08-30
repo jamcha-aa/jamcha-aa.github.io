@@ -47,6 +47,9 @@ jamcha: オリジナルの小説を GitHub で書いてます。
 -   [置いていかないでHugo](https://jamcha-aa-hugo.netlify.com/)
     + ウェブの森で迷子になった話 (全 6 話)。
 -   [平成 24 年の山本太郎と『れいわ新選組』の 1 ヶ月](https://jamcha-aa-harmoniyangindah.netlify.com/)
+    + 🐾 (全 8 話)。
+-   [YouTube で MMR を見た](https://jamcha-aa-mitsuyama.netlify.com/)
+    + Milk Money Reportage.
 -   [雑記](https://jamcha-aa.gitbook.io/column/)
 
 #### .org 形式
